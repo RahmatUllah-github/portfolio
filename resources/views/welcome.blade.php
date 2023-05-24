@@ -9,6 +9,7 @@
     <meta content="Rahmat Full stack laravel and vuejs developer having 5 years of industrial experience."
         name="description">
     <meta content="Laravel and vuejs developer" name="keywords">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Favicons -->
     <link href="/img/favicon.png" rel="icon">
@@ -133,20 +134,26 @@
                                 <ul>
                                     {{-- <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li> --}}
                                     <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong>
-                                        <span>Master</span></li>
+                                        <span>Master</span>
+                                    </li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
-                                        <span>rahmatul368@gmail.com</span></li>
+                                        <span>rahmatul368@gmail.com</span>
+                                    </li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong>
-                                        <span>Available</span></li>
+                                        <span>Available</span>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                         <p>
                             I'm a passionate fullstack web developer specializing in Laravel and Vue.js.
-                            With a Master's degree and extensive experience, I create elegant and efficient web solutions.
-                            I stay up-to-date with the latest industry trends and technologies to deliver exceptional projects
+                            With a Master's degree and extensive experience, I create elegant and efficient web
+                            solutions.
+                            I stay up-to-date with the latest industry trends and technologies to deliver exceptional
+                            projects
                             that exceed client expectations. Whether it's building robust APIs or designing seamless
-                            user interfaces, I'm committed to delivering excellence. Available for freelance opportunities,
+                            user interfaces, I'm committed to delivering excellence. Available for freelance
+                            opportunities,
                             feel free to contact me via phone or email to discuss your next project!
                         </p>
                     </div>
@@ -163,8 +170,10 @@
                     <h2>Facts</h2>
                     <p>
                         Over 5 years of experience in fullstack web development, specializing in Laravel and Vue.js.
-                        Successfully completed and delivered 30 web projects, ranging from small-scale websites to complex web applications.
-                        Proficient in developing responsive and user-friendly interfaces, ensuring optimal user experiences across different devices.
+                        Successfully completed and delivered 30 web projects, ranging from small-scale websites to
+                        complex web applications.
+                        Proficient in developing responsive and user-friendly interfaces, ensuring optimal user
+                        experiences across different devices.
                     </p>
                 </div>
 
@@ -221,15 +230,24 @@
                 <div class="section-title">
                     <h2>Skills</h2>
                     <p>
-                        With a strong foundation in web development, I possess a diverse range of skills to deliver exceptional results.
-                        My expertise lies in Laravel and Vue.js, where I excel in building robust and scalable web applications.
-                        I have a solid understanding of backend technologies, including database management and API integration.
-                        Additionally, I have a keen eye for frontend development, crafting visually appealing user interfaces
-                        and ensuring seamless user experiences. Proficient in HTML, CSS, and JavaScript, I leverage modern frameworks
-                        and libraries to create responsive and dynamic websites. I am also experienced in version control systems like Git,
-                        which allows for efficient collaboration and code management. Moreover, I have a strong problem-solving aptitude,
-                        allowing me to tackle complex challenges and find innovative solutions. With a dedication to staying up-to-date
-                        with emerging technologies and industry best practices, I am constantly expanding my skill set to deliver cutting-edge web solutions.
+                        With a strong foundation in web development, I possess a diverse range of skills to deliver
+                        exceptional results.
+                        My expertise lies in Laravel and Vue.js, where I excel in building robust and scalable web
+                        applications.
+                        I have a solid understanding of backend technologies, including database management and API
+                        integration.
+                        Additionally, I have a keen eye for frontend development, crafting visually appealing user
+                        interfaces
+                        and ensuring seamless user experiences. Proficient in HTML, CSS, and JavaScript, I leverage
+                        modern frameworks
+                        and libraries to create responsive and dynamic websites. I am also experienced in version
+                        control systems like Git,
+                        which allows for efficient collaboration and code management. Moreover, I have a strong
+                        problem-solving aptitude,
+                        allowing me to tackle complex challenges and find innovative solutions. With a dedication to
+                        staying up-to-date
+                        with emerging technologies and industry best practices, I am constantly expanding my skill set
+                        to deliver cutting-edge web solutions.
                     </p>
                 </div>
 
@@ -314,7 +332,8 @@
                             <h4>Rahmat Ullah</h4>
                             <p>
                                 <em>
-                                    Innovative and deadline-driven fullstack web developer with 5+ years of experience designing
+                                    Innovative and deadline-driven fullstack web developer with 5+ years of experience
+                                    designing
                                     and developing web projects from initial concept
                                     to final, polished deliverable.
                                 </em>
@@ -332,8 +351,10 @@
                             <h5>2016 - 2018</h5>
                             <p><em>Abbottabad University of Science &amp; Technology, Abbottabad, Pakistan</em></p>
                             <p>
-                                I hold a Master of Computer Science degree from Abbottabad University of Science & Technology, Abbottabad, Pakistan,
-                                which I completed from 2014 to 2018, equipping me with a strong foundation in computer science and technology.
+                                I hold a Master of Computer Science degree from Abbottabad University of Science &
+                                Technology, Abbottabad, Pakistan,
+                                which I completed from 2014 to 2018, equipping me with a strong foundation in computer
+                                science and technology.
                             </p>
                         </div>
                         <div class="resume-item">
@@ -341,8 +362,10 @@
                             <h5>2012 - 2016</h5>
                             <p><em>Abbottabad University of Science &amp; Technology, Abbottabad, Pakistan</em></p>
                             <p>
-                                I also hold a Bachelor of Computer Science degree from Abbottabad University of Science & Technology, Abbottabad, Pakistan,
-                                which I obtained from 2012 to 2016, providing me with a solid foundation in computer science principles and practical skills
+                                I also hold a Bachelor of Computer Science degree from Abbottabad University of Science
+                                & Technology, Abbottabad, Pakistan,
+                                which I obtained from 2012 to 2016, providing me with a solid foundation in computer
+                                science principles and practical skills
                             </p>
                         </div>
                     </div>
@@ -354,18 +377,22 @@
                             <p><em>Softtns Trading &amp; services, PES, Pakistan</em></p>
                             <ul>
                                 <li>
-                                    Led design, development, and implementation of user-friendly web solutions for Softtns Trading & services,
+                                    Led design, development, and implementation of user-friendly web solutions for
+                                    Softtns Trading & services,
                                     enhancing brand presence and customer engagement.
                                 </li>
                                 <li>
-                                    Managed and delegated tasks to a team of 7 developers, offering guidance and support throughout the project lifecycle.
+                                    Managed and delegated tasks to a team of 7 developers, offering guidance and support
+                                    throughout the project lifecycle.
                                 </li>
                                 <li>
-                                    Ensured high-quality projects through thorough assessments, maintaining coding standards,
+                                    Ensured high-quality projects through thorough assessments, maintaining coding
+                                    standards,
                                     and following best practices for optimal performance and user experience.
                                 </li>
                                 <li>
-                                    Oversaw production project budgets, ranging from $2,000 to $25,000, optimizing resources for cost-effective outcomes.
+                                    Oversaw production project budgets, ranging from $2,000 to $25,000, optimizing
+                                    resources for cost-effective outcomes.
                                 </li>
                             </ul>
                         </div>
@@ -375,11 +402,15 @@
                             <p><em>Eden Spell Technologies, RWP, Pakistan</em></p>
                             <ul>
                                 <li>
-                                    Developed and maintained numerous web applications, implementing modern technologies and frameworks to meet client requirements.
+                                    Developed and maintained numerous web applications, implementing modern technologies
+                                    and frameworks to meet client requirements.
                                 </li>
-                                <li>Managed multiple projects concurrently, effectively prioritizing tasks and meeting deadlines in a fast-paced environment.</li>
-                                <li>Collaborated with clients to understand their needs and provided expert advice on the most suitable web development solutions.</li>
-                                <li>Created and presented technical proposals and documentation to clients and stakeholders.</li>
+                                <li>Managed multiple projects concurrently, effectively prioritizing tasks and meeting
+                                    deadlines in a fast-paced environment.</li>
+                                <li>Collaborated with clients to understand their needs and provided expert advice on
+                                    the most suitable web development solutions.</li>
+                                <li>Created and presented technical proposals and documentation to clients and
+                                    stakeholders.</li>
                             </ul>
                         </div>
                     </div>
@@ -395,10 +426,14 @@
                 <div class="section-title">
                     <h2>Portfolio</h2>
                     <p>
-                        Welcome to my portfolio! As a skilled and experienced fullstack web developer, I have had the privilege of completing 13 successful projects
-                        for 9 clients. Working alongside a talented team of 7 developers, we have delivered a diverse range of web solutions that combine functionality,
-                        aesthetics, and seamless user experiences. From building interactive web applications to developing responsive websites,
-                        I take pride in my ability to transform ideas into reality. Browse through my portfolio to explore some of these notable projects
+                        Welcome to my portfolio! As a skilled and experienced fullstack web developer, I have had the
+                        privilege of completing 13 successful projects
+                        for 9 clients. Working alongside a talented team of 7 developers, we have delivered a diverse
+                        range of web solutions that combine functionality,
+                        aesthetics, and seamless user experiences. From building interactive web applications to
+                        developing responsive websites,
+                        I take pride in my ability to transform ideas into reality. Browse through my portfolio to
+                        explore some of these notable projects
                         and witness my dedication to crafting innovative and impactful web solutions.
                     </p>
                 </div>
@@ -422,7 +457,8 @@
                             <div class="portfolio-links">
                                 <a href="/img/portfolio/baladi_express.png" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                                <a href="https://baladiexpress.com/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="https://baladiexpress.com/" target="_blank" title="More Details"><i
+                                        class="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -433,7 +469,8 @@
                             <div class="portfolio-links">
                                 <a href="/img/portfolio/divinity_metals.png" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                <a href="https://divinitymetals.com/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="https://divinitymetals.com/" target="_blank" title="More Details"><i
+                                        class="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -444,7 +481,8 @@
                             <div class="portfolio-links">
                                 <a href="/img/portfolio/galaxy_academy.png" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                                <a href="https://galaxy-academy.co/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="https://galaxy-academy.co/" target="_blank" title="More Details"><i
+                                        class="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -455,7 +493,8 @@
                             <div class="portfolio-links">
                                 <a href="/img/portfolio/send_each.png" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                                <a href="https://sendeach.com/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="https://sendeach.com/" target="_blank" title="More Details"><i
+                                        class="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -466,7 +505,8 @@
                             <div class="portfolio-links">
                                 <a href="/img/portfolio/govamos.png" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                                <a href="https://govamos.co/fifa/join" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="https://govamos.co/fifa/join" target="_blank" title="More Details"><i
+                                        class="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -477,7 +517,8 @@
                             <div class="portfolio-links">
                                 <a href="/img/portfolio/green_world.png" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                                <a href="https://greenworld.com.ng/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="https://greenworld.com.ng/" target="_blank" title="More Details"><i
+                                        class="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -488,7 +529,8 @@
                             <div class="portfolio-links">
                                 <a href="/img/portfolio/job4u.png" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                                <a href="https://job4u.pk/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="https://job4u.pk/" target="_blank" title="More Details"><i
+                                        class="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -499,7 +541,8 @@
                             <div class="portfolio-links">
                                 <a href="/img/portfolio/photo_lab.png" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                                <a href="https://bestfilmdeveloping.com/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="https://bestfilmdeveloping.com/" target="_blank" title="More Details"><i
+                                        class="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -510,7 +553,8 @@
                             <div class="portfolio-links">
                                 <a href="/img/portfolio/sweet_dream.png" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                <a href="https://sweetdreamsvineyard.com/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="https://sweetdreamsvineyard.com/" target="_blank" title="More Details"><i
+                                        class="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -527,9 +571,12 @@
                 <div class="section-title">
                     <h2>Services</h2>
                     <p>
-                        Welcome to my services section! As a fullstack web developer, I provide a wide range of services, including responsive website development,
-                        custom web applications, backend development, frontend design, and database management. With expertise in Laravel and Vue.js,
-                        I am dedicated to delivering high-quality results that bring your web ideas to life. Let's collaborate and create exceptional
+                        Welcome to my services section! As a fullstack web developer, I provide a wide range of
+                        services, including responsive website development,
+                        custom web applications, backend development, frontend design, and database management. With
+                        expertise in Laravel and Vue.js,
+                        I am dedicated to delivering high-quality results that bring your web ideas to life. Let's
+                        collaborate and create exceptional
                         digital experiences together.
                     </p>
                 </div>
@@ -539,35 +586,41 @@
                         <div class="icon"><i class="bi bi-brightness-high"></i></div>
                         <h4 class="title"><a href="">Frontend Development</a></h4>
                         <p class="description">
-                            Crafting engaging and intuitive user interfaces that captivate and delight, while ensuring seamless user experiences and optimal performance.
+                            Crafting engaging and intuitive user interfaces that captivate and delight, while ensuring
+                            seamless user experiences and optimal performance.
                         </p>
                     </div>
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                         <div class="icon"><i class="bi bi-brightness-high"></i></div>
                         <h4 class="title"><a href="">Backend Development</a></h4>
                         <p class="description">
-                            Empowering your web applications with robust and efficient server-side functionality, ensuring secure data management and seamless integration of complex systems.
+                            Empowering your web applications with robust and efficient server-side functionality,
+                            ensuring secure data management and seamless integration of complex systems.
                         </p>
                     </div>
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                         <div class="icon"><i class="bi bi-brightness-high"></i></div>
                         <h4 class="title"><a href="">API Development</a></h4>
                         <p class="description">
-                            Building secure and reliable APIs that prioritize data integrity, authentication, and encryption, ensuring seamless communication and protecting sensitive information from unauthorized access.
+                            Building secure and reliable APIs that prioritize data integrity, authentication, and
+                            encryption, ensuring seamless communication and protecting sensitive information from
+                            unauthorized access.
                         </p>
                     </div>
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
                         <div class="icon"><i class="bi bi-brightness-high"></i></div>
                         <h4 class="title"><a href="">API integration</a></h4>
                         <p class="description">
-                            Enhancing web applications with seamless integration of third-party APIs, expanding functionality and enabling smooth data exchange for an enhanced user experience.
+                            Enhancing web applications with seamless integration of third-party APIs, expanding
+                            functionality and enabling smooth data exchange for an enhanced user experience.
                         </p>
                     </div>
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
                         <div class="icon"><i class="bi bi-brightness-high"></i></div>
                         <h4 class="title"><a href="">3rd Party API services</a></h4>
                         <p class="description">
-                            Enhancing your web applications with seamless integration of external APIs, expanding functionality and enabling efficient data exchange for an enhanced user experience.
+                            Enhancing your web applications with seamless integration of external APIs, expanding
+                            functionality and enabling efficient data exchange for an enhanced user experience.
                         </p>
                     </div>
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
@@ -580,21 +633,24 @@
                         <div class="icon"><i class="bi bi-brightness-high"></i></div>
                         <h4 class="title"><a href="">Google Analytics</a></h4>
                         <p class="description">
-                            Maximizing website insights with seamless integration of Google Analytics, enabling data-driven decision-making for enhanced performance and online presence.
+                            Maximizing website insights with seamless integration of Google Analytics, enabling
+                            data-driven decision-making for enhanced performance and online presence.
                         </p>
                     </div>
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="700">
                         <div class="icon"><i class="bi bi-brightness-high"></i></div>
                         <h4 class="title"><a href="">SEO</a></h4>
                         <p class="description">
-                            Boosting online visibility and driving valuable traffic through effective SEO strategies, maximizing website rankings and attracting organic visitors for increased conversions.
+                            Boosting online visibility and driving valuable traffic through effective SEO strategies,
+                            maximizing website rankings and attracting organic visitors for increased conversions.
                         </p>
                     </div>
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="800">
                         <div class="icon"><i class="bi bi-brightness-high"></i></div>
                         <h4 class="title"><a href="">Responsive Designs</a></h4>
                         <p class="description">
-                            Crafting captivating websites that adapt flawlessly to any device, delivering exceptional user experiences and seamless navigation on all screens.
+                            Crafting captivating websites that adapt flawlessly to any device, delivering exceptional
+                            user experiences and seamless navigation on all screens.
                         </p>
                     </div>
                 </div>
@@ -620,7 +676,8 @@
                             <div class="testimonial-item" data-aos="fade-up">
                                 <p>
                                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Working with Rahmat has been a pleasure. Their expertise in web development and attention to detail exceeded our expectations.
+                                    Working with Rahmat has been a pleasure. Their expertise in web development and
+                                    attention to detail exceeded our expectations.
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                                 <img src="/img/testimonials/testimonials-1.jpg" class="testimonial-img"
@@ -634,7 +691,8 @@
                             <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
                                 <p>
                                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Rahmat is a skilled and dedicated web developer. They consistently deliver top-notch solutions on time and within budget. Highly recommended.
+                                    Rahmat is a skilled and dedicated web developer. They consistently deliver top-notch
+                                    solutions on time and within budget. Highly recommended.
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                                 <img src="/img/testimonials/testimonials-2.jpg" class="testimonial-img"
@@ -648,7 +706,8 @@
                             <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
                                 <p>
                                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Rahmat's professionalism and a deep understanding of our needs. Their exceptional communication and technical expertise made the process efficient.
+                                    Rahmat's professionalism and a deep understanding of our needs. Their exceptional
+                                    communication and technical expertise made the process efficient.
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                                 <img src="/img/testimonials/testimonials-3.jpg" class="testimonial-img"
@@ -662,7 +721,8 @@
                             <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
                                 <p>
                                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Exceptional web development skills with a keen eye for design. Rahmat surpassed our expectations with a stunning website.
+                                    Exceptional web development skills with a keen eye for design. Rahmat surpassed our
+                                    expectations with a stunning website.
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                                 <img src="/img/testimonials/testimonials-4.jpg" class="testimonial-img"
@@ -676,7 +736,8 @@
                             <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
                                 <p>
                                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Collaborating with Rahmat was a game-changer. Their expertise and attention to detail transformed our online presence.
+                                    Collaborating with Rahmat was a game-changer. Their expertise and attention to
+                                    detail transformed our online presence.
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                                 <img src="/img/testimonials/testimonials-5.jpg" class="testimonial-img"
@@ -700,7 +761,8 @@
                 <div class="section-title">
                     <h2>Contact</h2>
                     <p>
-                        Interested in discussing your web development needs? Feel free to reach out using the contact form provided below.
+                        Interested in discussing your web development needs? Feel free to reach out using the contact
+                        form provided below.
                         I look forward to hearing from you and exploring how I can assist you in achieving your goals.
                     </p>
                 </div>
@@ -729,15 +791,31 @@
 
                             <div class="mapouter">
                                 <div class="gmap_canvas">
-                                    <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                                    <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0"
+                                        marginwidth="0"
                                         src="https://maps.google.com/maps?width=400&amp;height=230&amp;hl=en&amp;q=Aziz bhatti road valancia lahore&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
                                     </iframe>
                                     <a href="https://capcuttemplate.org/">Capcut Templates</a>
                                 </div>
                                 <style>
-                                    .mapouter{position:relative;text-align:right;width:400px;height:230px;}
-                                    .gmap_canvas {overflow:hidden;background:none!important;width:400px;height:230px;}
-                                    .gmap_iframe {width:400px!important;height:230px!important;}
+                                    .mapouter {
+                                        position: relative;
+                                        text-align: right;
+                                        width: 400px;
+                                        height: 230px;
+                                    }
+
+                                    .gmap_canvas {
+                                        overflow: hidden;
+                                        background: none !important;
+                                        width: 400px;
+                                        height: 230px;
+                                    }
+
+                                    .gmap_iframe {
+                                        width: 400px !important;
+                                        height: 230px !important;
+                                    }
                                 </style>
                             </div>
                         </div>
@@ -745,7 +823,8 @@
                     </div>
 
                     <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <form action="/api/contact-us" method="post" role="form" id="contact-us-form"
+                            class="php-email-form">
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="name">Your Name</label>
@@ -767,9 +846,9 @@
                                 <textarea class="form-control" name="message" rows="10" required></textarea>
                             </div>
                             <div class="my-3">
-                                <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                                <div class="loading d-none">Loading</div>
+                                <div class="error-message d-none">An error occured please try again</div>
+                                <div class="sent-message d-none">Your message has been sent. Thank you!</div>
                             </div>
                             <div class="text-center"><button type="submit">Send Message</button></div>
                         </form>
@@ -807,6 +886,44 @@
 
     <!-- Template Main JS File -->
     <script src="/js/main.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#contact-us-form').submit(function(e) {
+                e.preventDefault(); // Prevent form submission
+
+                var form = $(this);
+                var url = form.attr('action');
+                var method = form.attr('method');
+                var data = form.serialize(); // Serialize form data
+                var csrfToken = $('meta[name="csrf-token"]').attr('content');
+
+                // Send AJAX request
+                $.ajax({
+                    url: url,
+                    type: method,
+                    data: data,
+                    beforeSend: function(xhr) {
+                        xhr.setRequestHeader('X-CSRF-TOKEN', csrfToken); // Set CSRF token in headers
+                        form.find('.loading').removeClass('d-none'); // Show loading message
+                    },
+                    success: function(response) {
+                        // Hide loading message and show success message
+                        form.find('.loading').addClass('d-none');
+                        form.find('.sent-message').removeClass('d-none');
+                        form[0].reset(); // Reset the form
+                    },
+                    error: function() {
+                        // Hide loading message and show error message
+                        form.find('.loading').addClass('d-none');
+                        form.find('.error-message').removeClass('d-none');
+                    }
+                });
+            });
+        });
+    </script>
 
 </body>
 
