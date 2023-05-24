@@ -12,7 +12,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Favicons -->
-    <link href="/img/favicon.png" rel="icon">
+    <link href="/img/profile-img.jpg" rel="icon">
     <link href="/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -83,7 +83,7 @@
     <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
         <div class="hero-container" data-aos="fade-in">
             <h1>Rahmat Ullah</h1>
-            <p>I'm <span class="typed"
+            <p><span class="typed"
                     data-typed-items="Fullstack Web Developer, Freelancer, Laravel Vuejs Developer"></span></p>
         </div>
     </section><!-- End Hero -->
@@ -120,7 +120,7 @@
                             <div class="col-lg-6">
                                 <ul>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>15th Jan
-                                            1997</span></li>
+                                            1994</span></li>
                                     {{-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
                                         <span>www.example.com</span></li> --}}
                                     <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+92 346
@@ -682,7 +682,7 @@
                                 <img src="/img/testimonials/testimonials-1.jpg" class="testimonial-img"
                                     alt="">
                                 <h3>Saul Goodman</h3>
-                                <h4>Ceo &amp; Founder</h4>
+                                <h4>CEO &amp; Founder</h4>
                             </div>
                         </div><!-- End testimonial item -->
 
@@ -895,7 +895,5 @@
             });
         });
     </script>
-
 </body>
-
 </html>
