@@ -87,6 +87,7 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
+  height: 120px;
   border: 8px solid #2c2f3f;
 }
 
@@ -796,6 +797,7 @@ section {
   position: relative;
   margin-bottom: 35px;
   border-radius: 6px;
+  height: 180px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -1042,6 +1044,18 @@ section {
   content: "/";
 }
 
+@media (max-width: 1199px) {
+    .testimonials .testimonial-item p {
+        height: 100px;
+    }
+}
+
+@media (max-width: 992px) {
+    .testimonials .testimonial-item p {
+        height: 130px;
+    }
+}
+
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
     display: block !important;
@@ -1054,6 +1068,22 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+
+  .testimonials .testimonial-item p {
+    height: 120px;
+  }
+}
+
+@media (max-width: 500px) {
+    .testimonials .testimonial-item p {
+        height: 150px;
+    }
+}
+
+@media (max-width: 400px) {
+    .testimonials .testimonial-item p {
+        height: 170px;
+    }
 }
 
 /*--------------------------------------------------------------

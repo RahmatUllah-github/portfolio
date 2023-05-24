@@ -53,11 +53,10 @@
                 <img src="/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
                 <h1 class="text-light"><a href="index.html">Rahmat Ullah</a></h1>
                 <div class="social-links mt-3 text-center">
-                    <a href="#" class="twitter"><i class="bx bxl-github"></i></a>
-                    <a href="#" class="facebook"><i class="bx bxl-upwork"></i></a>
-                    <a href="#" class="instagram"><i class="bx bxl-twitter"></i></a>
-                    <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                    <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://github.com/RahmatUllah-github" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+                    <a href="https://www.upwork.com/freelancers/rahmatlaravelvuedeveloper" target="_blank" class="upwork"><i class="bx bxl-upwork"></i></a>
+                    <a href="https://join.skype.com/invite/uCF97W1PaSLi" target="_blank" class="google-plus"><i class="bx bxl-skype"></i></a>
+                    <a href="https://www.linkedin.com/in/rahmatul368" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                 </div>
             </div>
 
@@ -182,7 +181,7 @@
                     <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
                         <div class="count-box">
                             <i class="bi bi-emoji-smile"></i>
-                            <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1"
+                            <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1"
                                 class="purecounter"></span>
                             <p><strong>Happy Clients</strong></p>
                         </div>
@@ -192,7 +191,7 @@
                         data-aos-delay="100">
                         <div class="count-box">
                             <i class="bi bi-journal-richtext"></i>
-                            <span data-purecounter-start="0" data-purecounter-end="13" data-purecounter-duration="1"
+                            <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1"
                                 class="purecounter"></span>
                             <p><strong>Projects</strong></p>
                         </div>
@@ -427,8 +426,8 @@
                     <h2>Portfolio</h2>
                     <p>
                         Welcome to my portfolio! As a skilled and experienced fullstack web developer, I have had the
-                        privilege of completing 13 successful projects
-                        for 9 clients. Working alongside a talented team of 7 developers, we have delivered a diverse
+                        privilege of completing 9 successful projects
+                        for 8 clients. Working alongside a talented team of 7 developers, we have delivered a diverse
                         range of web solutions that combine functionality,
                         aesthetics, and seamless user experiences. From building interactive web applications to
                         developing responsive websites,
@@ -774,7 +773,7 @@
                             <div class="address">
                                 <i class="bi bi-geo-alt"></i>
                                 <h4>Location:</h4>
-                                <p>Aziz Bhatti Rd Valancia, Lahore, Pakistan</p>
+                                <p>Canal Colony, residential, Lahore, Pakistan</p>
                             </div>
 
                             <div class="email">
@@ -789,35 +788,7 @@
                                 <p>+92 346 9070799</p>
                             </div>
 
-                            <div class="mapouter">
-                                <div class="gmap_canvas">
-                                    <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0"
-                                        marginwidth="0"
-                                        src="https://maps.google.com/maps?width=400&amp;height=230&amp;hl=en&amp;q=Aziz bhatti road valancia lahore&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-                                    </iframe>
-                                    <a href="https://capcuttemplate.org/">Capcut Templates</a>
-                                </div>
-                                <style>
-                                    .mapouter {
-                                        position: relative;
-                                        text-align: right;
-                                        width: 400px;
-                                        height: 230px;
-                                    }
-
-                                    .gmap_canvas {
-                                        overflow: hidden;
-                                        background: none !important;
-                                        width: 400px;
-                                        height: 230px;
-                                    }
-
-                                    .gmap_iframe {
-                                        width: 400px !important;
-                                        height: 230px !important;
-                                    }
-                                </style>
-                            </div>
+                            <div style="width: 100%"><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Canal%20Colony,%20residential,%20Lahore,%20Pakistan+(Rahmat%20Ullah)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/sport-gps/">hiking gps</a></iframe></div>
                         </div>
 
                     </div>
