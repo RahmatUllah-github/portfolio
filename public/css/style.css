@@ -1119,3 +1119,13 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+.portfolio-text-width {
+    width: 75% !important;
+}
+
+@media (max-width: 991px) {
+    .portfolio-text-width {
+        width: 100% !important;
+    }
+}

@@ -23,7 +23,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::post('contact-us', function (Request $request) {
     $data = $request->all();
 
-    Mail::to('rahmatul368@gmail.com')->send(new ContactUsMail(
+    Mail::to('rahmatul0799@gmail.com')->send(new ContactUsMail(
         $data['name'],
         $data['email'],
         $data['subject'],

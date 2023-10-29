@@ -54,7 +54,7 @@
                 <h1 class="text-light"><a href="index.html">Rahmat Ullah</a></h1>
                 <div class="social-links mt-3 text-center">
                     <a href="https://github.com/RahmatUllah-github" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-                    <a href="https://www.upwork.com/freelancers/rahmatlaravelvuedeveloper" target="_blank" class="upwork"><i class="bx bxl-upwork"></i></a>
+                    <a href="https://thewordscounter.com/" target="_blank" class="website"><i class="bx bx-link"></i></a>
                     <a href="https://join.skype.com/invite/uCF97W1PaSLi" target="_blank" class="google-plus"><i class="bx bxl-skype"></i></a>
                     <a href="https://www.linkedin.com/in/rahmatul368" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                 </div>
@@ -70,8 +70,8 @@
                             <span>Resume</span></a></li>
                     <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
                             <span>Portfolio</span></a></li>
-                    <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i>
-                            <span>Services</span></a></li>
+                    {{-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i>
+                            <span>Services</span></a></li> --}}
                     <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i>
                             <span>Contact</span></a></li>
                 </ul>
@@ -84,7 +84,7 @@
         <div class="hero-container" data-aos="fade-in">
             <h1>Rahmat Ullah</h1>
             <p><span class="typed"
-                    data-typed-items="Fullstack Web Developer, Freelancer, Laravel Vuejs Developer"></span></p>
+                    data-typed-items="Fullstack Web Developer, Laravel Vuejs Developer"></span></p>
         </div>
     </section><!-- End Hero -->
 
@@ -97,19 +97,15 @@
                 <div class="section-title">
                     <h2>About</h2>
                     <p>
-                        I'm an accomplished full-stack Laravel and Vue.js developer with over 5 years of industrial
-                        experience.
-                        Proficient in both frontend and backend technologies, this expert has a proven track record of
-                        building robust
-                        and user-friendly web applications. Their expertise and passion for development make them an
-                        invaluable
-                        addition to any team.
+                        With three years of professional experience, I excel as a full-stack developer proficient in Laravel
+                        and Vue.js. My portfolio reflects a history of creating resilient
+                        and user-friendly web applications. My unwavering passion and skill set make me an invaluable asset to any team.
                     </p>
                 </div>
 
                 <div class="row">
                     <div class="col-lg-4" data-aos="fade-right">
-                        <img src="/img/profile-img.jpg" class="img-fluid" alt="">
+                        <img src="/img/profile_image.png" class="img-fluid" alt="">
                     </div>
                     <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                         <h3>Fullstack Web Developer</h3>
@@ -120,23 +116,22 @@
                             <div class="col-lg-6">
                                 <ul>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>15th Jan
-                                            1994</span></li>
-                                    {{-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
-                                        <span>www.example.com</span></li> --}}
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+92 346
-                                            9070799</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Lahore,
-                                            Pakistan</span></li>
+                                            1997</span></li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <a href="tel:+923469070799" class="text-dark">+92 346 9070799</a>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <a target="_blank" href="https://www.google.com/maps/place/Lahore,+Pakistan" class="text-dark">Lahore, Pakistan</a></li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
+                                        <a target="_blank" href="https://thewordscounter.com/" class="text-dark">thewordscounter.com</a></li>
                                 </ul>
                             </div>
                             <div class="col-lg-6">
                                 <ul>
-                                    {{-- <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li> --}}
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong>
-                                        <span>Master</span>
-                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>26</span></li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
-                                        <span>rahmatul368@gmail.com</span>
+                                        <a class="text-dark" href="mailto:rahmatul368@gmail.com">rahmatul368@gmail.com</a>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong>
+                                        <span>BS (Hons)</span>
                                     </li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong>
                                         <span>Available</span>
@@ -145,15 +140,11 @@
                             </div>
                         </div>
                         <p>
-                            I'm a passionate fullstack web developer specializing in Laravel and Vue.js.
-                            With a Master's degree and extensive experience, I create elegant and efficient web
-                            solutions.
-                            I stay up-to-date with the latest industry trends and technologies to deliver exceptional
-                            projects
-                            that exceed client expectations. Whether it's building robust APIs or designing seamless
-                            user interfaces, I'm committed to delivering excellence. Available for freelance
-                            opportunities,
-                            feel free to contact me via phone or email to discuss your next project!
+                            As a dedicated full-stack web developer, my focus lies in Laravel and Vue.js. With a wealth of experience,
+                            I craft sophisticated and effective web solutions. I remain current with industry trends and cutting-edge technologies
+                            to consistently deliver projects that surpass client expectations. Whether it's the construction of resilient APIs or
+                            the creation of intuitive user interfaces, my commitment to excellence is unwavering. I'm open to freelance opportunities
+                            and encourage you to reach out via phone or email to discuss your project in detail.
                         </p>
                     </div>
                 </div>
@@ -162,7 +153,7 @@
         </section><!-- End About Section -->
 
         <!-- ======= Facts Section ======= -->
-        <section id="facts" class="facts">
+        {{-- <section id="facts" class="facts">
             <div class="container">
 
                 <div class="section-title">
@@ -220,7 +211,8 @@
                 </div>
 
             </div>
-        </section><!-- End Facts Section -->
+        </section> --}}
+        <!-- End Facts Section -->
 
         <!-- ======= Skills Section ======= -->
         <section id="skills" class="skills section-bg">
@@ -229,24 +221,12 @@
                 <div class="section-title">
                     <h2>Skills</h2>
                     <p>
-                        With a strong foundation in web development, I possess a diverse range of skills to deliver
-                        exceptional results.
-                        My expertise lies in Laravel and Vue.js, where I excel in building robust and scalable web
-                        applications.
-                        I have a solid understanding of backend technologies, including database management and API
-                        integration.
-                        Additionally, I have a keen eye for frontend development, crafting visually appealing user
-                        interfaces
-                        and ensuring seamless user experiences. Proficient in HTML, CSS, and JavaScript, I leverage
-                        modern frameworks
-                        and libraries to create responsive and dynamic websites. I am also experienced in version
-                        control systems like Git,
-                        which allows for efficient collaboration and code management. Moreover, I have a strong
-                        problem-solving aptitude,
-                        allowing me to tackle complex challenges and find innovative solutions. With a dedication to
-                        staying up-to-date
-                        with emerging technologies and industry best practices, I am constantly expanding my skill set
-                        to deliver cutting-edge web solutions.
+                        I possess versatility as a web developer, anchoring my expertise in Laravel and Vue.js.
+                        My proficiency extends across the backend domain, encompassing database administration
+                        and seamless API integration. On the frontend, I specialize in crafting visually engaging
+                        and user-friendly interfaces utilizing HTML, CSS, and JavaScript. I demonstrate adeptness with contemporary
+                        frameworks and libraries, including Git for streamlined collaboration. My forte lies in creative problem-solving,
+                        and I maintain current awareness of emerging technologies to ensure the delivery of state-of-the-art web solutions.
                     </p>
                 </div>
 
@@ -263,9 +243,9 @@
                         </div>
 
                         <div class="progress">
-                            <span class="skill">CSS <i class="val">90%</i></span>
+                            <span class="skill">CSS <i class="val">100%</i></span>
                             <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
                                     aria-valuemax="100"></div>
                             </div>
                         </div>
@@ -320,7 +300,8 @@
                 <div class="section-title">
                     <h2>Resume</h2>
                     <p>
-                        This section provides an overview of my educational background and professional experience.
+                        This section provides an overview of my educational background and professional experience. Download my resume in pdf
+                        <a target="_blank" href="/files/Rahmat-laravel-&-vuejs-onyxtec.pdf">Download</a>
                     </p>
                 </div>
 
@@ -329,87 +310,74 @@
                         <h3 class="resume-title">Sumary</h3>
                         <div class="resume-item pb-0">
                             <h4>Rahmat Ullah</h4>
-                            <p>
+                            <p class="portfolio-text-width">
                                 <em>
-                                    Innovative and deadline-driven fullstack web developer with 5+ years of experience
+                                    Innovative and deadline-driven fullstack web developer with 3 years of experience
                                     designing
                                     and developing web projects from initial concept
                                     to final, polished deliverable.
                                 </em>
                             </p>
                             <ul>
-                                <li>Lahore, Pakistan</li>
-                                <li>(0992) 346 9070799</li>
-                                <li>rahmatul368@gmail.com</li>
+                                <li><a target="_blank" href="https://www.google.com/maps/place/Lahore,+Pakistan" class="text-dark">Lahore, Pakistan</a></li>
+                                <li><a href="tel:+923469070799" class="text-dark">(0992) 346 9070799</a></li>
+                                <li><a class="text-dark" href="mailto:rahmatul368@gmail.com">rahmatul368@gmail.com</a></li>
                             </ul>
                         </div>
 
                         <h3 class="resume-title">Education</h3>
                         <div class="resume-item">
-                            <h4>Master of Computer Science</h4>
-                            <h5>2016 - 2018</h5>
+                            <h4>BS(Hons) in Computer Science</h4>
+                            <h5>2016 - 2020</h5>
                             <p><em>Abbottabad University of Science &amp; Technology, Abbottabad, Pakistan</em></p>
-                            <p>
-                                I hold a Master of Computer Science degree from Abbottabad University of Science &
+                            <p class="portfolio-text-width">
+                                I hold a bachelors degree in Computer Science from Abbottabad University of Science &
                                 Technology, Abbottabad, Pakistan,
-                                which I completed from 2014 to 2018, equipping me with a strong foundation in computer
+                                which I completed from 2016 to 2020, equipping me with a strong foundation in computer
                                 science and technology.
-                            </p>
-                        </div>
-                        <div class="resume-item">
-                            <h4>Bachelor of Computer Science</h4>
-                            <h5>2012 - 2016</h5>
-                            <p><em>Abbottabad University of Science &amp; Technology, Abbottabad, Pakistan</em></p>
-                            <p>
-                                I also hold a Bachelor of Computer Science degree from Abbottabad University of Science
-                                & Technology, Abbottabad, Pakistan,
-                                which I obtained from 2012 to 2016, providing me with a solid foundation in computer
-                                science principles and practical skills
                             </p>
                         </div>
                     </div>
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                         <h3 class="resume-title">Professional Experience</h3>
                         <div class="resume-item">
-                            <h4>Senior fullstack web developer</h4>
-                            <h5>2021 - 2023</h5>
-                            <p><em>Softtns Trading &amp; services, PES, Pakistan</em></p>
+                            <h4>Laravel Developer (Internship)</h4>
+                            <h5>Jan 2021 -  Jun 2021</h5>
+                            <p><em>EdenSpell Technologies, RWP, Pakistan</em></p>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Fullstack Laravel &amp; Vuejs Developer</h4>
+                            <h5>Jul 2021 -  Aug 2022</h5>
+                            <p><em>SOFTTNS Trading &amp; services, PES, Pakistan</em></p>
+                            <p>Projects I worked on:</p>
                             <ul>
                                 <li>
-                                    Led design, development, and implementation of user-friendly web solutions for
-                                    Softtns Trading & services,
-                                    enhancing brand presence and customer engagement.
+                                    <a target="_blank" class="text-dark" href="https://baladiexpress.com/">Baladi Express</a>
                                 </li>
+                                {{-- <li>
+                                    <a target="_blank" class="text-dark" href="https://www.alakersweet.com/">Alakar Sweet</a>
+                                </li> --}}
                                 <li>
-                                    Managed and delegated tasks to a team of 7 developers, offering guidance and support
-                                    throughout the project lifecycle.
-                                </li>
-                                <li>
-                                    Ensured high-quality projects through thorough assessments, maintaining coding
-                                    standards,
-                                    and following best practices for optimal performance and user experience.
-                                </li>
-                                <li>
-                                    Oversaw production project budgets, ranging from $2,000 to $25,000, optimizing
-                                    resources for cost-effective outcomes.
+                                    <a target="_blank" class="text-dark" href="https://galaxy-academy.co/">Galaxy Academy</a>
                                 </li>
                             </ul>
                         </div>
+
                         <div class="resume-item">
-                            <h4>Fullstack web developer</h4>
-                            <h5>2018 - 2021</h5>
-                            <p><em>Eden Spell Technologies, RWP, Pakistan</em></p>
+                            <h4>Fullstack Laravel &amp; Vuejs Developer</h4>
+                            <h5>Aug 2022 -  Present</h5>
+                            <p><em>OnyxTec Solutions, LHR, Pakistan</em></p>
+                            <p>Projects I worked on:</p>
                             <ul>
                                 <li>
-                                    Developed and maintained numerous web applications, implementing modern technologies
-                                    and frameworks to meet client requirements.
+                                    <a target="_blank" class="text-dark" href="https://divinitymetals.com/">Divinity Metals</a>
                                 </li>
-                                <li>Managed multiple projects concurrently, effectively prioritizing tasks and meeting
-                                    deadlines in a fast-paced environment.</li>
-                                <li>Collaborated with clients to understand their needs and provided expert advice on
-                                    the most suitable web development solutions.</li>
-                                <li>Created and presented technical proposals and documentation to clients and
-                                    stakeholders.</li>
+                                <li>
+                                    <a target="_blank" class="text-dark" href="https://carequorum.com/">Care Quorum</a>
+                                </li>
+                                <li>
+                                    <a target="_blank" class="text-dark" href="https://www.ilrc.org/">ILRC</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -425,15 +393,11 @@
                 <div class="section-title">
                     <h2>Portfolio</h2>
                     <p>
-                        Welcome to my portfolio! As a skilled and experienced fullstack web developer, I have had the
-                        privilege of completing 9 successful projects
-                        for 8 clients. Working alongside a talented team of 7 developers, we have delivered a diverse
-                        range of web solutions that combine functionality,
-                        aesthetics, and seamless user experiences. From building interactive web applications to
-                        developing responsive websites,
-                        I take pride in my ability to transform ideas into reality. Browse through my portfolio to
-                        explore some of these notable projects
-                        and witness my dedication to crafting innovative and impactful web solutions.
+                        Welcome to my portfolio! As an accomplished fullstack web developer, I've had the privilege of working on a range of
+                        web solutions that harmoniously blend functionality, aesthetics, and an exceptional user experience.
+                        Whether it's developing interactive web applications or creating responsive websites, I'm dedicated to turning concepts into
+                        innovative and impactful web solutions. Take a tour of my portfolio to explore some of these remarkable projects and witness
+                        my commitment to excellence in web development.
                     </p>
                 </div>
 
@@ -488,11 +452,11 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                         <div class="portfolio-wrap">
-                            <img src="/img/portfolio/send_each.png" class="img-fluid" alt="">
+                            <img src="/img/portfolio/ilrc.png" class="img-fluid" alt="">
                             <div class="portfolio-links">
-                                <a href="/img/portfolio/send_each.png" data-gallery="portfolioGallery"
+                                <a href="/img/portfolio/ilrc.png" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                                <a href="https://sendeach.com/" target="_blank" title="More Details"><i
+                                <a href="https://www.ilrc.org/" target="_blank" title="More Details"><i
                                         class="bx bx-link"></i></a>
                             </div>
                         </div>
@@ -500,11 +464,11 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div class="portfolio-wrap">
-                            <img src="/img/portfolio/govamos.png" class="img-fluid" alt="">
+                            <img src="/img/portfolio/carequorum.png" class="img-fluid" alt="">
                             <div class="portfolio-links">
-                                <a href="/img/portfolio/govamos.png" data-gallery="portfolioGallery"
+                                <a href="/img/portfolio/carequorum.png" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                                <a href="https://govamos.co/fifa/join" target="_blank" title="More Details"><i
+                                <a href="https://carequorum.com/" target="_blank" title="More Details"><i
                                         class="bx bx-link"></i></a>
                             </div>
                         </div>
@@ -512,59 +476,22 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
-                            <img src="/img/portfolio/green_world.png" class="img-fluid" alt="">
+                            <img src="/img/portfolio/alakersweet.png" class="img-fluid" alt="">
                             <div class="portfolio-links">
-                                <a href="/img/portfolio/green_world.png" data-gallery="portfolioGallery"
+                                <a href="/img/portfolio/alakersweet.png" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                                <a href="https://greenworld.com.ng/" target="_blank" title="More Details"><i
+                                <a href="https://www.alakersweet.com/" target="_blank" title="More Details"><i
                                         class="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-wrap">
-                            <img src="/img/portfolio/job4u.png" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="/img/portfolio/job4u.png" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                                <a href="https://job4u.pk/" target="_blank" title="More Details"><i
-                                        class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-wrap">
-                            <img src="/img/portfolio/photo_lab.png" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="/img/portfolio/photo_lab.png" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                                <a href="https://bestfilmdeveloping.com/" target="_blank" title="More Details"><i
-                                        class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <img src="/img/portfolio/sweet_dream.png" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="/img/portfolio/sweet_dream.png" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                <a href="https://sweetdreamsvineyard.com/" target="_blank" title="More Details"><i
-                                        class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
 
             </div>
         </section><!-- End Portfolio Section -->
 
         <!-- ======= Services Section ======= -->
-        <section id="services" class="services">
+        {{-- <section id="services" class="services">
             <div class="container">
 
                 <div class="section-title">
@@ -655,10 +582,11 @@
                 </div>
 
             </div>
-        </section><!-- End Services Section -->
+        </section> --}}
+        <!-- End Services Section -->
 
         <!-- ======= Testimonials Section ======= -->
-        <section id="testimonials" class="testimonials section-bg">
+        {{-- <section id="testimonials" class="testimonials section-bg">
             <div class="container">
 
                 <div class="section-title">
@@ -751,7 +679,8 @@
                 </div>
 
             </div>
-        </section><!-- End Testimonials Section -->
+        </section> --}}
+        <!-- End Testimonials Section -->
 
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
@@ -760,9 +689,8 @@
                 <div class="section-title">
                     <h2>Contact</h2>
                     <p>
-                        Interested in discussing your web development needs? Feel free to reach out using the contact
-                        form provided below.
-                        I look forward to hearing from you and exploring how I can assist you in achieving your goals.
+                        If you're considering your web development requirements, don't hesitate to get in touch by
+                        using the contact form below. I'm excited to connect with you and explore how I can help you accomplish your objectives.
                     </p>
                 </div>
 
@@ -834,7 +762,7 @@
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
-        <div class="container">
+        <div class="container text-secondary">
             <div class="copyright">
                 &copy; Copyright <strong><span>Rahmat Portfolio</span></strong>
             </div>
