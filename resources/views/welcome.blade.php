@@ -105,7 +105,7 @@
 
                 <div class="row">
                     <div class="col-lg-4" data-aos="fade-right">
-                        <img src="/img/profile_image.png" class="img-fluid" alt="">
+                        <img src="/img/profile-img-2.jpg" class="img-fluid" alt="">
                     </div>
                     <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                         <h3>Fullstack Web Developer</h3>
@@ -701,19 +701,25 @@
                             <div class="address">
                                 <i class="bi bi-geo-alt"></i>
                                 <h4>Location:</h4>
-                                <p>Canal Colony, residential, Lahore, Pakistan</p>
+                                <p>
+                                    <a target="_blank" href="https://www.google.com/maps/place/Lahore,+Pakistan" class="text-secondary">Lahore, Pakistan</a>
+                                </p>
                             </div>
 
                             <div class="email">
                                 <i class="bi bi-envelope"></i>
                                 <h4>Email:</h4>
-                                <p>rahmatul368@gmail.com</p>
+                                <p>
+                                    <a href="mailto:rahmatul368@gmail.com" class="text-secondary">rahmatul368@gmail.com</a>
+                                </p>
                             </div>
 
                             <div class="phone">
                                 <i class="bi bi-phone"></i>
                                 <h4>Call:</h4>
-                                <p>+92 346 9070799</p>
+                                <p>
+                                    <a href="tel:+923469070799" class="text-secondary">+92 346 9070799</a>
+                                </p>
                             </div>
 
                             <div style="width: 100%"><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Canal%20Colony,%20residential,%20Lahore,%20Pakistan+(Rahmat%20Ullah)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/sport-gps/">hiking gps</a></iframe></div>
