@@ -6,14 +6,14 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>{{ config('app.name', 'Rahmat Portfolio') }}</title>
-    <meta content="Rahmat Full stack laravel and vuejs developer having 5 years of industrial experience."
+    <meta content="Fullstack web developer having experience in PHP Laravel Vue Nuxt."
         name="description">
-    <meta content="Laravel and vuejs developer" name="keywords">
+    <meta content="PHP, Laravel, Vuejs, Nuxtjs Web Developer" name="keywords">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Favicons -->
     <link href="/img/profile-img.jpg" rel="icon">
-    <link href="/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="/img/profile-img.jpg" rel="Rahmat">
 
     <!-- Google Fonts -->
     <link
@@ -84,7 +84,7 @@
         <div class="hero-container" data-aos="fade-in">
             <h1>Rahmat Ullah</h1>
             <p><span class="typed"
-                    data-typed-items="Fullstack Web Developer, Laravel Vuejs Developer"></span></p>
+                    data-typed-items="Fullstack Web-Developer, PHP-Laravel Developer, Vuejs-Nuxt Developer"></span></p>
         </div>
     </section><!-- End Hero -->
 
@@ -110,7 +110,7 @@
                     <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                         <h3>Fullstack Web Developer</h3>
                         <p class="fst-italic">
-                            Expert laravel and vuejs developer
+                            Expert fullstack web developer
                         </p>
                         <div class="row">
                             <div class="col-lg-6">
@@ -235,15 +235,7 @@
                     <div class="col-lg-6" data-aos="fade-up">
 
                         <div class="progress">
-                            <span class="skill">HTML <i class="val">100%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div>
-
-                        <div class="progress">
-                            <span class="skill">CSS <i class="val">100%</i></span>
+                            <span class="skill">HTML/CSS <i class="val">100%</i></span>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
                                     aria-valuemax="100"></div>
@@ -258,9 +250,25 @@
                             </div>
                         </div>
 
+                        <div class="progress">
+                            <span class="skill">Vuejs <i class="val">100%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
                     </div>
 
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+                        <div class="progress">
+                            <span class="skill">Nuxtjs <i class="val">100%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
 
                         <div class="progress">
                             <span class="skill">PHP <i class="val">100%</i></span>
@@ -272,14 +280,6 @@
 
                         <div class="progress">
                             <span class="skill">Laravel <i class="val">100%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div>
-
-                        <div class="progress">
-                            <span class="skill">Vuejs <i class="val">100%</i></span>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
                                     aria-valuemax="100"></div>
