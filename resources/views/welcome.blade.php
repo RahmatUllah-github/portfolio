@@ -84,7 +84,7 @@
         <div class="hero-container" data-aos="fade-in">
             <h1>Rahmat Ullah</h1>
             <p><span class="typed"
-                    data-typed-items="Fullstack Web-Developer, PHP-Laravel Developer, Vuejs-Nuxt Developer"></span></p>
+                    data-typed-items="Fullstack Web-Developer, PHP-Laravel Developer, Vuejs-Nuxtjs Developer"></span></p>
         </div>
     </section><!-- End Hero -->
 
