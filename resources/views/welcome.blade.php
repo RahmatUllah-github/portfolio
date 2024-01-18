@@ -84,7 +84,7 @@
         <div class="hero-container" data-aos="fade-in">
             <h1>Rahmat Ullah</h1>
             <p><span class="typed"
-                    data-typed-items="Fullstack Web-Developer, PHP-Laravel Developer, Vuejs-Nuxtjs Developer"></span></p>
+                    data-typed-items="Senior Fullstack Developer, PHP-Laravel Developer, Vuejs-Nuxtjs Developer"></span></p>
         </div>
     </section><!-- End Hero -->
 
@@ -301,7 +301,7 @@
                     <h2>Resume</h2>
                     <p>
                         This section provides an overview of my educational background and professional experience. Download my resume in pdf
-                        <a target="_blank" href="/files/Rahmat-laravel-&-vuejs-onyxtec.pdf">Download</a>
+                        <a target="_blank" href="/files/Rahmat-senior-fullstack-laravel-dev.pdf">Download</a>
                     </p>
                 </div>
 
@@ -364,7 +364,7 @@
                         </div>
 
                         <div class="resume-item">
-                            <h4>Fullstack Laravel &amp; Vuejs Developer</h4>
+                            <h4>Senior Fullstack Laravel-Vuejs Developer</h4>
                             <h5>Aug 2022 -  Present</h5>
                             <p><em>OnyxTec Solutions, LHR, Pakistan</em></p>
                             <p>Projects I worked on:</p>
