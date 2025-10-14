@@ -49,7 +49,7 @@
                 class="flex items-center space-x-2 text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors duration-300"
               >
                 <span>🔗</span>
-                <span class="text-sm font-medium">Live Demo</span>
+                <span class="text-sm font-medium">Live Url</span>
               </a>
               <div class="relative">
                 <a 
