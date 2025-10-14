@@ -87,7 +87,7 @@
                 target="_blank"
                 class="w-10 h-10 bg-gray-700 dark:bg-gray-600 text-white rounded-lg flex items-center justify-center hover:bg-gray-800 dark:hover:bg-gray-700 transition-colors duration-300"
               >
-                🐙
+                <img src="/images/github.svg" alt="GitHub" class="w-5 h-5 invert" />
               </a>
               <a 
                 href="https://wa.me/923469070799" 

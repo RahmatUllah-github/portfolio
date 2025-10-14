@@ -26,7 +26,7 @@
               target="_blank"
               class="p-2 bg-gray-700 rounded-lg hover:bg-gray-800 transition-colors duration-300"
             >
-              🐙
+              <img src="/images/github.svg" alt="GitHub" class="w-5 h-5 invert" />
             </a>
             <a 
               href="https://wa.me/923469070799"

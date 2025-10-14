@@ -58,14 +58,14 @@
                   target="_blank"
                   class="flex items-center space-x-2 text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300 transition-colors duration-300"
                 >
-                  <span>🐙</span>
+                  <img src="/images/github.svg" alt="GitHub" class="w-4 h-4 dark:invert" />
                   <span class="text-sm font-medium">Code</span>
                 </a>
                 <span 
                   v-else
                   class="flex items-center space-x-2 text-gray-400 dark:text-gray-600 cursor-not-allowed relative group"
                 >
-                  <span>🐙</span>
+                  <img src="/images/github.svg" alt="GitHub" class="w-4 h-4 opacity-50 dark:invert" />
                   <span class="text-sm font-medium">Code</span>
                   <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
                     Private repository
@@ -169,7 +169,7 @@ const projects = [
     image: '/images/project-propqa.png',
     category: 'PropTech / AI',
     technologies: ['Laravel', 'Nuxt 3', 'PostgreSQL', 'Python (NLP)', 'AWS Rekognition', 'Redis', 'Socialite'],
-    liveUrl: null,
+    liveUrl: 'https://propqa.ai/',
     githubUrl: null
   },
   {
@@ -179,7 +179,7 @@ const projects = [
     image: '/images/project-rpm.png',
     category: 'Operations / Internal',
     technologies: ['Laravel', 'MySQL', 'Redis Queues', 'Cron', 'Nginx'],
-    liveUrl: null,
+    liveUrl: 'https://reliablepremium.com/',
     githubUrl: null
   },
   {

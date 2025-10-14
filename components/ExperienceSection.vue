@@ -19,7 +19,7 @@
             <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg z-10"></div>
             
             <div 
-              class="px-4 md:px-0 w-full"
+              class="w-full"
               :class="index % 2 === 0 ? 'md:pr-1/2 md:text-right' : 'md:pl-1/2 md:ml-8'"
             >
               <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg card-hover text-left">
