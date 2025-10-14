@@ -157,13 +157,23 @@
               <button 
                 type="submit"
                 :disabled="isSubmitting || !isFormValid"
-                :title="!isFormValid && !isSubmitting ? 'Please fill the form correctly' : ''"
+                @mouseenter="showTooltip = !isFormValid && !isSubmitting"
+                @mouseleave="showTooltip = false"
                 class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 disabled:hover:shadow-none flex items-center justify-center space-x-2"
               >
                 <span v-if="isSubmitting">⏳</span>
                 <span v-else>📤</span>
                 <span>{{ isSubmitting ? 'Sending...' : 'Send Message' }}</span>
               </button>
+              
+              <!-- Custom Tooltip -->
+              <div 
+                v-if="showTooltip"
+                class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-gray-800 dark:bg-gray-700 text-white text-sm rounded-lg shadow-lg whitespace-nowrap animate-fade-in"
+              >
+                Please fill the form correctly
+                <div class="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-800 dark:border-t-gray-700"></div>
+              </div>
             </div>
             
             <p class="text-xs text-gray-500 dark:text-gray-400 mt-4 text-center">
@@ -219,6 +229,7 @@ const isSubmitting = ref(false)
 const showNotification = ref(false)
 const notificationType = ref('success')
 const notificationMessage = ref('')
+const showTooltip = ref(false)
 
 const config = useRuntimeConfig()
 
