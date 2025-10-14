@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
+    '@nuxtjs/color-mode',
     '@vueuse/nuxt'
   ],
   
@@ -11,6 +12,11 @@ export default defineNuxtConfig({
     public: {
       formspreeFormId: process.env.FORMSPREE_FORM_ID
     }
+  },
+
+  // Color Mode
+  colorMode: {
+    classSuffix: ''
   },
 
   // App Configuration
