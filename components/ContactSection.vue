@@ -1,0 +1,198 @@
+<template>
+  <section id="contact" class="py-20 bg-white dark:bg-gray-800">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold mb-4 animate-fade-in">Get In Touch</h2>
+        <p class="text-gray-600 dark:text-gray-400 animate-slide-up">Let's discuss your next project or opportunity</p>
+      </div>
+      
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+        <div class="animate-slide-in-left">
+          <h3 class="text-2xl font-bold mb-8">Let's Connect</h3>
+          <p class="text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
+            I'm always interested in new opportunities, challenging projects, and collaborations. 
+            Whether you have a project in mind or just want to chat about technology, feel free to reach out!
+          </p>
+          
+          <div class="space-y-6">
+            <div class="flex items-center space-x-4">
+              <div class="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center text-xl">
+                ✉️
+              </div>
+              <div>
+                <h4 class="font-semibold">Email</h4>
+                <a href="mailto:rahmatul368@gmail.com" class="text-blue-600 dark:text-blue-400 hover:underline">
+                  rahmatul368@gmail.com
+                </a>
+              </div>
+            </div>
+            
+            <div class="flex items-center space-x-4">
+              <div class="w-12 h-12 bg-purple-100 dark:bg-purple-900 rounded-lg flex items-center justify-center text-xl">
+                💼
+              </div>
+              <div>
+                <h4 class="font-semibold">LinkedIn</h4>
+                <a href="https://www.linkedin.com/in/rahmatul368/" target="_blank" class="text-purple-600 dark:text-purple-400 hover:underline">
+                  linkedin.com/in/rahmatul368
+                </a>
+              </div>
+            </div>
+            
+            <div class="flex items-center space-x-4">
+              <div class="w-12 h-12 bg-green-100 dark:bg-green-900 rounded-lg flex items-center justify-center text-xl">
+                📍
+              </div>
+              <div>
+                <h4 class="font-semibold">Location</h4>
+                <p class="text-gray-600 dark:text-gray-400">Available for remote work worldwide</p>
+              </div>
+            </div>
+            
+            <div class="flex items-center space-x-4">
+              <div class="w-12 h-12 bg-orange-100 dark:bg-orange-900 rounded-lg flex items-center justify-center text-xl">
+                ⏰
+              </div>
+              <div>
+                <h4 class="font-semibold">Response Time</h4>
+                <p class="text-gray-600 dark:text-gray-400">Usually within 24 hours</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="mt-8">
+            <h4 class="font-semibold mb-4">Follow Me</h4>
+            <div class="flex space-x-4">
+              <a 
+                href="https://www.linkedin.com/in/rahmatul368/" 
+                target="_blank"
+                class="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center hover:bg-blue-700 transition-colors duration-300"
+              >
+                💼
+              </a>
+              <a 
+                href="https://github.com/rahmat" 
+                target="_blank"
+                class="w-10 h-10 bg-gray-800 text-white rounded-lg flex items-center justify-center hover:bg-gray-900 transition-colors duration-300"
+              >
+                🐙
+              </a>
+              <a 
+                href="https://twitter.com/rahmat" 
+                target="_blank"
+                class="w-10 h-10 bg-blue-400 text-white rounded-lg flex items-center justify-center hover:bg-blue-500 transition-colors duration-300"
+              >
+                🐦
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="animate-slide-in-right">
+          <form @submit.prevent="submitForm" class="bg-gray-50 dark:bg-gray-900 p-8 rounded-2xl shadow-lg">
+            <h3 class="text-xl font-bold mb-6">Send Me a Message</h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+              <div>
+                <label for="name" class="block text-sm font-medium mb-2">Name *</label>
+                <input 
+                  id="name"
+                  v-model="form.name"
+                  type="text" 
+                  required
+                  class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-800 transition-all duration-300"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div>
+                <label for="email" class="block text-sm font-medium mb-2">Email *</label>
+                <input 
+                  id="email"
+                  v-model="form.email"
+                  type="email" 
+                  required
+                  class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-800 transition-all duration-300"
+                  placeholder="your@email.com"
+                />
+              </div>
+            </div>
+            
+            <div class="mb-6">
+              <label for="subject" class="block text-sm font-medium mb-2">Subject *</label>
+              <input 
+                id="subject"
+                v-model="form.subject"
+                type="text" 
+                required
+                class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-800 transition-all duration-300"
+                placeholder="Project Discussion"
+              />
+            </div>
+            
+            <div class="mb-6">
+              <label for="message" class="block text-sm font-medium mb-2">Message *</label>
+              <textarea 
+                id="message"
+                v-model="form.message"
+                rows="5" 
+                required
+                class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-800 transition-all duration-300 resize-none"
+                placeholder="Tell me about your project or opportunity..."
+              ></textarea>
+            </div>
+            
+            <button 
+              type="submit"
+              :disabled="isSubmitting"
+              class="w-full btn-primary disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center space-x-2"
+            >
+              <span v-if="isSubmitting">⏳</span>
+              <span v-else>📤</span>
+              <span>{{ isSubmitting ? 'Sending...' : 'Send Message' }}</span>
+            </button>
+            
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-4 text-center">
+              I'll get back to you as soon as possible!
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script setup>
+const form = ref({
+  name: '',
+  email: '',
+  subject: '',
+  message: ''
+})
+
+const isSubmitting = ref(false)
+
+const submitForm = async () => {
+  isSubmitting.value = true
+  
+  try {
+    await new Promise(resolve => setTimeout(resolve, 2000))
+    
+    console.log('Form submitted:', form.value)
+    
+    form.value = {
+      name: '',
+      email: '',
+      subject: '',
+      message: ''
+    }
+    
+    alert('Message sent successfully! I\'ll get back to you soon.')
+    
+  } catch (error) {
+    console.error('Error submitting form:', error)
+    alert('There was an error sending your message. Please try again.')
+  } finally {
+    isSubmitting.value = false
+  }
+}
+</script>
