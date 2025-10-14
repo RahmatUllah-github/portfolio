@@ -25,9 +25,9 @@
         
         <button 
           @click="toggleMobileMenu"
-          class="md:hidden p-2 rounded-lg bg-gray-100 dark:bg-gray-800"
+          class="md:hidden px-3 py-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-300"
         >
-          <span>{{ isMobileMenuOpen ? '✕' : '☰' }}</span>
+          <span class="text-lg font-medium">{{ isMobileMenuOpen ? '✕' : '☰' }}</span>
         </button>
       </div>
       
