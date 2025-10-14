@@ -11,22 +11,29 @@
             <a 
               href="https://www.linkedin.com/in/rahmatul368/" 
               target="_blank"
-              class="p-2 bg-gray-800 rounded-lg hover:bg-blue-600 transition-colors duration-300"
+              class="p-2 bg-purple-600 rounded-lg hover:bg-purple-700 transition-colors duration-300"
             >
               💼
             </a>
             <a 
               href="mailto:rahmatul368@gmail.com"
-              class="p-2 bg-gray-800 rounded-lg hover:bg-red-600 transition-colors duration-300"
+              class="p-2 bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors duration-300"
             >
               ✉️
             </a>
             <a 
-              href="https://github.com/rahmat"
+              href="https://github.com/RahmatUllah-github"
               target="_blank"
-              class="p-2 bg-gray-800 rounded-lg hover:bg-gray-600 transition-colors duration-300"
+              class="p-2 bg-gray-700 rounded-lg hover:bg-gray-800 transition-colors duration-300"
             >
               🐙
+            </a>
+            <a 
+              href="https://wa.me/923469070799"
+              target="_blank"
+              class="p-2 bg-green-600 rounded-lg hover:bg-green-700 transition-colors duration-300"
+            >
+              💬
             </a>
           </div>
         </div>
@@ -47,8 +54,11 @@
           <p class="text-gray-400 mb-2">
             ✉️ rahmatul368@gmail.com
           </p>
+          <p class="text-gray-400 mb-2">
+            💬 +92 346 9070799
+          </p>
           <p class="text-gray-400 mb-4">
-            📍 Available for remote work
+            📍 Available for remote work worldwide & onsite in Lahore, Pakistan
           </p>
           <p class="text-sm text-gray-500">
             Open to new opportunities and exciting projects.

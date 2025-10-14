@@ -45,7 +45,19 @@
               </div>
               <div>
                 <h4 class="font-semibold">Location</h4>
-                <p class="text-gray-600 dark:text-gray-400">Available for remote work worldwide</p>
+                <p class="text-gray-600 dark:text-gray-400">Available for remote work worldwide & onsite in Lahore, Pakistan</p>
+              </div>
+            </div>
+            
+            <div class="flex items-center space-x-4">
+              <div class="w-12 h-12 bg-green-100 dark:bg-green-900 rounded-lg flex items-center justify-center text-xl">
+                💬
+              </div>
+              <div>
+                <h4 class="font-semibold">WhatsApp</h4>
+                <a href="https://wa.me/923469070799" target="_blank" class="text-green-600 dark:text-green-400 hover:underline">
+                  +92 346 9070799
+                </a>
               </div>
             </div>
             
@@ -66,23 +78,23 @@
               <a 
                 href="https://www.linkedin.com/in/rahmatul368/" 
                 target="_blank"
-                class="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center hover:bg-blue-700 transition-colors duration-300"
+                class="w-10 h-10 bg-purple-600 text-white rounded-lg flex items-center justify-center hover:bg-purple-700 transition-colors duration-300"
               >
                 💼
               </a>
               <a 
-                href="https://github.com/rahmat" 
+                href="https://github.com/RahmatUllah-github" 
                 target="_blank"
-                class="w-10 h-10 bg-gray-800 text-white rounded-lg flex items-center justify-center hover:bg-gray-900 transition-colors duration-300"
+                class="w-10 h-10 bg-gray-700 dark:bg-gray-600 text-white rounded-lg flex items-center justify-center hover:bg-gray-800 dark:hover:bg-gray-700 transition-colors duration-300"
               >
                 🐙
               </a>
               <a 
-                href="https://twitter.com/rahmat" 
+                href="https://wa.me/923469070799" 
                 target="_blank"
-                class="w-10 h-10 bg-blue-400 text-white rounded-lg flex items-center justify-center hover:bg-blue-500 transition-colors duration-300"
+                class="w-10 h-10 bg-green-600 text-white rounded-lg flex items-center justify-center hover:bg-green-700 transition-colors duration-300"
               >
-                🐦
+                💬
               </a>
             </div>
           </div>
@@ -171,13 +183,19 @@ const form = ref({
 
 const isSubmitting = ref(false)
 
+const config = useRuntimeConfig()
+
 const submitForm = async () => {
   isSubmitting.value = true
   
   try {
-    await new Promise(resolve => setTimeout(resolve, 2000))
-    
-    console.log('Form submitted:', form.value)
+    await $fetch(`https://formspree.io/f/${config.public.formspreeFormId}`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: form.value
+    })
     
     form.value = {
       name: '',

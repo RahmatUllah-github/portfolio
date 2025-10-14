@@ -6,11 +6,11 @@
         <p class="text-gray-600 dark:text-gray-400 animate-slide-up">Some of my recent work and contributions</p>
       </div>
       
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="flex flex-wrap justify-center gap-8">
         <div 
           v-for="(project, index) in projects" 
           :key="project.id"
-          class="bg-gray-50 dark:bg-gray-900 rounded-2xl overflow-hidden shadow-lg card-hover animate-scale-in"
+          class="w-full max-w-md bg-gray-50 dark:bg-gray-900 rounded-2xl overflow-hidden shadow-lg card-hover animate-scale-in"
           :style="{ animationDelay: `${index * 0.1}s` }"
         >
           <div class="relative overflow-hidden">
@@ -51,20 +51,33 @@
                 <span>🔗</span>
                 <span class="text-sm font-medium">Live Demo</span>
               </a>
-              <a 
-                :href="project.githubUrl" 
-                target="_blank"
-                class="flex items-center space-x-2 text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300 transition-colors duration-300"
-              >
-                <span>🐙</span>
-                <span class="text-sm font-medium">Code</span>
-              </a>
+              <div class="relative">
+                <a 
+                  v-if="project.githubUrl"
+                  :href="project.githubUrl" 
+                  target="_blank"
+                  class="flex items-center space-x-2 text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300 transition-colors duration-300"
+                >
+                  <span>🐙</span>
+                  <span class="text-sm font-medium">Code</span>
+                </a>
+                <span 
+                  v-else
+                  class="flex items-center space-x-2 text-gray-400 dark:text-gray-600 cursor-not-allowed relative group"
+                >
+                  <span>🐙</span>
+                  <span class="text-sm font-medium">Code</span>
+                  <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+                    Private repository
+                  </div>
+                </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
       
-      <div class="text-center mt-12">
+      <!-- <div class="text-center mt-12">
         <a 
           href="https://github.com/rahmat" 
           target="_blank"
@@ -72,7 +85,7 @@
         >
           View All Projects on GitHub
         </a>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
@@ -81,63 +94,103 @@
 const projects = [
   {
     id: 1,
-    title: 'KP Pharma Platform',
-    description: 'A comprehensive pharmaceutical management system with inventory tracking, order management, and analytics dashboard.',
-    image: '/images/project-1-placeholder.jpg',
-    category: 'Web Application',
-    technologies: ['React', 'Node.js', 'PostgreSQL', 'AWS'],
+    title: 'KP-Pharma',
+    description: 'Diagnostics platform for tests, multi panel admin with Laravel Nova, reporting, S3 uploads, CloudFront CDN, HL7 planning, Rekognition based checks, and performance tuning throughout flows.',
+    image: '/images/project-kp-pharma.png',
+    category: 'Healthcare / E-commerce',
+    technologies: ['Laravel', 'Laravel Nova', 'Nuxt 3', 'MySQL', 'AWS S3', 'CloudFront', 'AWS Rekognition', 'Amazon Personalize'],
     liveUrl: 'https://kp-pharma.co.uk/',
-    githubUrl: 'https://github.com/rahmat/kp-pharma'
+    githubUrl: null
   },
   {
     id: 2,
     title: 'Regen Bespoke',
-    description: 'Custom tailoring and fashion e-commerce platform with advanced customization features and payment integration.',
-    image: '/images/project-2-placeholder.jpg',
-    category: 'E-commerce',
-    technologies: ['Vue.js', 'Laravel', 'MySQL', 'Stripe'],
+    description: 'Antique and vintage decor marketplace offering purchase and hire, optimized catalogs, checkout using Stripe Payment Intents, Apple Pay, Google Pay, and DigitalOcean deployment with caching.',
+    image: '/images/project-regen-bespoke.png',
+    category: 'E-commerce / Hire',
+    technologies: ['Laravel', 'Laravel Nova', 'Nuxt 3', 'MySQL', 'Stripe', 'DigitalOcean'],
     liveUrl: 'https://regenbespoke.com/',
-    githubUrl: 'https://github.com/rahmat/regen-bespoke'
+    githubUrl: null
   },
   {
     id: 3,
     title: 'Care Quorum',
-    description: 'Healthcare management system for patient care coordination and medical record management.',
-    image: '/images/project-3-placeholder.jpg',
-    category: 'Healthcare',
-    technologies: ['React', 'Python', 'Django', 'PostgreSQL'],
+    description: 'Social health community enabling profiles, posts, comments, and moderation; implemented authentication, controls, and cloud NLP text screening, with S3 storage and streamlined APIs for performance. Monolithic Laravel with Vue 2 components for UI and API integrations.',
+    image: '/images/project-carequorum.png',
+    category: 'Healthcare / Community',
+    technologies: ['Laravel', 'Vue 2', 'MySQL', 'Google Cloud NLP', 'AWS S3'],
     liveUrl: 'https://carequorum.com/',
-    githubUrl: 'https://github.com/rahmat/care-quorum'
+    githubUrl: null
   },
   {
     id: 4,
-    title: 'ILRC Platform',
-    description: 'Immigration law resource center with document management and case tracking capabilities.',
-    image: '/images/project-4-placeholder.jpg',
-    category: 'Legal Tech',
-    technologies: ['Next.js', 'TypeScript', 'MongoDB', 'Vercel'],
-    liveUrl: 'https://www.ilrc.org/',
-    githubUrl: 'https://github.com/rahmat/ilrc-platform'
+    title: 'Divinity Metals',
+    description: 'Inventory and order synchronization with automated SKU updates, queue workers, and reporting; delivered REST integrations, jobs, and dashboards to stabilize supply, pricing, and fulfillment data.',
+    image: '/images/project-divinity-metals.png',
+    category: 'Trading / Integrations',
+    technologies: ['Laravel', 'MySQL', 'Redis Queues', 'REST APIs', 'Nginx'],
+    liveUrl: 'https://divinitymetals.com/',
+    githubUrl: null
   },
   {
     id: 5,
-    title: 'Divinity Metals',
-    description: 'Metal trading and inventory management system with real-time pricing and market analytics.',
-    image: '/images/project-5-placeholder.jpg',
-    category: 'Trading Platform',
-    technologies: ['React', 'Node.js', 'Redis', 'WebSocket'],
-    liveUrl: 'https://divinitymetals.com/',
-    githubUrl: 'https://github.com/rahmat/divinity-metals'
+    title: 'FreelaDesk',
+    description: 'Team based project and task management SaaS with multi workspace, lists, board view, roles and permissions, and real time updates via WebSockets, built with Nuxt.',
+    image: '/images/project-freeladesk.png',
+    category: 'SaaS / Productivity',
+    technologies: ['NestJS', 'TypeScript', 'Prisma', 'PostgreSQL', 'Redis', 'WebSockets', 'Nuxt 3'],
+    liveUrl: 'https://freeladesk.com/',
+    githubUrl: null
   },
   {
     id: 6,
+    title: 'Festa',
+    description: 'Event management backend providing categories, events, and media uploads, exposing scalable REST APIs for public and admin UIs, with NestJS, Prisma, and S3 storage integration.',
+    image: '/images/project-festa.png',
+    category: 'Events / API',
+    technologies: ['NestJS', 'TypeScript', 'Prisma', 'PostgreSQL', 'Redis', 'AWS S3'],
+    liveUrl: null,
+    githubUrl: null
+  },
+  {
+    id: 7,
+    title: 'Baladi Express',
+    description: 'Developed Laravel REST APIs powering catalog, cart, checkout, and order workflows; implemented authentication, validation, rate limiting, and caching, coordinating with a separate frontend partner team.',
+    image: '/images/project-baladi-express.png',
+    category: 'E-commerce',
+    technologies: ['Laravel', 'MySQL', 'Redis', 'REST APIs', 'Sanctum/JWT'],
+    liveUrl: 'https://baladiexpress.com/',
+    githubUrl: null
+  },
+  {
+    id: 8,
+    title: 'PropQA',
+    description: 'AI powered property analytics with listing ingestion and search; built Python NLP microservice for ranking and integrated AWS Rekognition, with Laravel, Nuxt, PostgreSQL, Redis processing.',
+    image: '/images/project-propqa.png',
+    category: 'PropTech / AI',
+    technologies: ['Laravel', 'Nuxt 3', 'PostgreSQL', 'Python (NLP)', 'AWS Rekognition', 'Redis', 'Socialite'],
+    liveUrl: null,
+    githubUrl: null
+  },
+  {
+    id: 9,
+    title: 'RPM',
+    description: 'Waste collection and operations tool with route scheduling, job tickets, invoicing, and reporting; backed processing for tasks, summaries, and admin controls to streamline dispatch operations.',
+    image: '/images/project-rpm.png',
+    category: 'Operations / Internal',
+    technologies: ['Laravel', 'MySQL', 'Redis Queues', 'Cron', 'Nginx'],
+    liveUrl: null,
+    githubUrl: null
+  },
+  {
+    id: 10,
     title: 'Portfolio Website',
-    description: 'This responsive portfolio website built with Nuxt.js, featuring modern animations and SEO optimization.',
-    image: '/images/project-6-placeholder.jpg',
+    description: 'Responsive developer portfolio highlighting projects, clean UI, SEO friendly structure, and content sections, built with Nuxt 3 and Tailwind CSS, optimized for performance and updates.',
+    image: '/images/project-portfolio.png',
     category: 'Portfolio',
-    technologies: ['Nuxt.js', 'Tailwind CSS', 'TypeScript'],
+    technologies: ['Nuxt 3', 'Tailwind CSS', 'TypeScript'],
     liveUrl: '#',
-    githubUrl: 'https://github.com/rahmat/portfolio'
+    githubUrl: 'https://github.com/RahmatUllah-github/portfolio.git'
   }
-]
+];
 </script>

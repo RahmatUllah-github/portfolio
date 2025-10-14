@@ -64,10 +64,10 @@ const skills = [
     icon: '💻',
     bgColor: 'bg-blue-100 dark:bg-blue-900',
     skills: [
-      { name: 'React', level: 95, color: 'bg-blue-500' },
-      { name: 'Vue.js', level: 90, color: 'bg-green-500' },
-      { name: 'TypeScript', level: 88, color: 'bg-blue-600' },
-      { name: 'Tailwind CSS', level: 92, color: 'bg-cyan-500' }
+      { name: 'Vue.js/Nuxt.js', level: 95, color: 'bg-green-500' },
+      { name: 'JavaScript/TypeScript', level: 95, color: 'bg-yellow-500' },
+      { name: 'Bootstrap/TailwindCSS', level: 95, color: 'bg-blue-600' },
+      { name: 'HTML/CSS', level: 95, color: 'bg-orange-500' }
     ]
   },
   {
@@ -75,10 +75,10 @@ const skills = [
     icon: '⚙️',
     bgColor: 'bg-purple-100 dark:bg-purple-900',
     skills: [
-      { name: 'Node.js', level: 93, color: 'bg-green-600' },
-      { name: 'Python', level: 87, color: 'bg-yellow-500' },
-      { name: 'PHP', level: 85, color: 'bg-purple-600' },
-      { name: 'REST APIs', level: 95, color: 'bg-orange-500' }
+      { name: 'Laravel', level: 100, color: 'bg-red-500' },
+      { name: 'PHP', level: 95, color: 'bg-purple-600' },
+      { name: 'REST APIs', level: 95, color: 'bg-orange-500' },
+      { name: 'Node.js/Nest.js', level: 85, color: 'bg-green-600' }
     ]
   },
   {
@@ -86,28 +86,27 @@ const skills = [
     icon: '🗄️',
     bgColor: 'bg-green-100 dark:bg-green-900',
     skills: [
-      { name: 'MySQL', level: 90, color: 'bg-blue-600' },
-      { name: 'PostgreSQL', level: 85, color: 'bg-blue-700' },
-      { name: 'MongoDB', level: 88, color: 'bg-green-600' },
-      { name: 'Redis', level: 80, color: 'bg-red-500' }
+      { name: 'MySQL', level: 95, color: 'bg-blue-600' },
+      { name: 'PostgreSQL', level: 95, color: 'bg-red-500' },
+      { name: 'MongoDB', level: 95, color: 'bg-green-600' },
+      { name: 'Schema Design', level: 95, color: 'bg-indigo-500' }
     ]
   },
   {
-    name: 'DevOps & Tools',
+    name: 'Tools & Others',
     icon: '🛠️',
     bgColor: 'bg-orange-100 dark:bg-orange-900',
     skills: [
-      { name: 'Git', level: 95, color: 'bg-gray-600' },
-      { name: 'Docker', level: 82, color: 'bg-blue-500' },
-      { name: 'AWS', level: 78, color: 'bg-orange-500' },
-      { name: 'CI/CD', level: 80, color: 'bg-purple-500' }
+      { name: 'Git', level: 95, color: 'bg-gray-400' },
+      { name: 'Postman', level: 95, color: 'bg-orange-500' },
+      { name: 'Linux', level: 95, color: 'bg-indigo-700' },
+      { name: 'AWS', level: 95, color: 'bg-red-500' }
     ]
   }
 ]
 
 const additionalTechs = [
-  'Next.js', 'Nuxt.js', 'Express.js', 'FastAPI', 'Laravel', 'WordPress',
-  'GraphQL', 'Socket.io', 'Webpack', 'Vite', 'Jest', 'Cypress',
-  'Nginx', 'Linux', 'Figma', 'Postman'
+  'Nuxt.js', 'Express.js', 'Auth', 'Socket', 'jQuery',
+  'JSON', 'XML', 'AJAX', 'Webpack', 'Vite', 'Nginx', 'Apache'
 ]
 </script>

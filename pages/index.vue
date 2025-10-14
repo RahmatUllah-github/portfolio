@@ -5,7 +5,7 @@
       <div class="container mx-auto px-6 text-center">
         <div class="animate-fade-in">
           <img 
-            src="/images/profile-placeholder.jpg" 
+            src="/images/rahmat-profile.png" 
             alt="Rahmat - Senior Full Stack Developer"
             class="w-32 h-32 rounded-full mx-auto mb-8 shadow-2xl animate-bounce-in"
           />
@@ -17,7 +17,7 @@
           </p>
           <p class="text-lg text-gray-500 dark:text-gray-400 max-w-2xl mx-auto mb-12 animate-slide-up">
             Passionate about creating innovative web solutions with modern technologies. 
-            Specializing in React, Node.js, Python, and scalable application development.
+            Specializing in PHP Laravel, Node.js/Nest.js, Vue.js/Nuxt.js and scalable application development.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up">
             <a href="#projects" class="btn-primary">
@@ -42,7 +42,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div class="animate-slide-in-left">
             <img 
-              src="/images/about-placeholder.jpg" 
+              src="/images/about-rahmat.png" 
               alt="About Rahmat"
               class="rounded-2xl shadow-2xl w-full"
             />
@@ -59,11 +59,11 @@
             <div class="grid grid-cols-2 gap-6 mb-8">
               <div>
                 <h4 class="font-semibold text-blue-600 dark:text-blue-400 mb-2">Frontend</h4>
-                <p class="text-sm text-gray-600 dark:text-gray-400">React, Vue.js, TypeScript, Tailwind CSS</p>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Vue.js, JavaScript, TypeScript, Tailwind CSS</p>
               </div>
               <div>
                 <h4 class="font-semibold text-purple-600 dark:text-purple-400 mb-2">Backend</h4>
-                <p class="text-sm text-gray-600 dark:text-gray-400">Node.js, Python, PHP, REST APIs</p>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Node.js, Nest.js, PHP Laravel, REST APIs</p>
               </div>
               <div>
                 <h4 class="font-semibold text-green-600 dark:text-green-400 mb-2">Database</h4>
@@ -71,7 +71,7 @@
               </div>
               <div>
                 <h4 class="font-semibold text-orange-600 dark:text-orange-400 mb-2">Tools</h4>
-                <p class="text-sm text-gray-600 dark:text-gray-400">Git, Docker, AWS, CI/CD</p>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Git, C Panel, AWS, CI/CD</p>
               </div>
             </div>
             

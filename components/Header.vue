@@ -3,7 +3,7 @@
     <nav class="container mx-auto px-6 py-4">
       <div class="flex items-center justify-between">
         <NuxtLink to="/" class="text-2xl font-bold gradient-text animate-fade-in">
-          Rahmat
+          Rahmat Ullah
         </NuxtLink>
         
         <div class="hidden md:flex items-center space-x-8">
@@ -15,12 +15,12 @@
           >
             {{ item.name }}
           </NuxtLink>
-          <button 
+          <!-- <button 
             @click="toggleDarkMode"
             class="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-300"
           >
             <span>{{ isDark ? '☀️' : '🌙' }}</span>
-          </button>
+          </button> -->
         </div>
         
         <button 
@@ -46,13 +46,13 @@
           >
             {{ item.name }}
           </NuxtLink>
-          <button 
+          <!-- <button 
             @click="toggleDarkMode"
             class="flex items-center space-x-2 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
           >
             <span>{{ isDark ? '☀️' : '🌙' }}</span>
             <span>{{ isDark ? 'Light Mode' : 'Dark Mode' }}</span>
-          </button>
+          </button> -->
         </div>
       </div>
     </nav>
