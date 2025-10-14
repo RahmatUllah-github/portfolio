@@ -153,21 +153,55 @@
               ></textarea>
             </div>
             
-            <button 
-              type="submit"
-              :disabled="isSubmitting"
-              class="w-full btn-primary disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center space-x-2"
-            >
-              <span v-if="isSubmitting">⏳</span>
-              <span v-else>📤</span>
-              <span>{{ isSubmitting ? 'Sending...' : 'Send Message' }}</span>
-            </button>
+            <div class="relative">
+              <button 
+                type="submit"
+                :disabled="isSubmitting || !isFormValid"
+                :title="!isFormValid && !isSubmitting ? 'Please fill the form correctly' : ''"
+                class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 disabled:hover:shadow-none flex items-center justify-center space-x-2"
+              >
+                <span v-if="isSubmitting">⏳</span>
+                <span v-else>📤</span>
+                <span>{{ isSubmitting ? 'Sending...' : 'Send Message' }}</span>
+              </button>
+            </div>
             
             <p class="text-xs text-gray-500 dark:text-gray-400 mt-4 text-center">
               I'll get back to you as soon as possible!
             </p>
           </form>
         </div>
+      </div>
+    </div>
+    
+    <!-- Notification Popup -->
+    <div 
+      v-if="showNotification"
+      class="fixed top-4 right-4 z-50 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg p-4 max-w-sm animate-slide-in-right"
+    >
+      <div class="flex items-center space-x-3">
+        <div class="flex-shrink-0">
+          <div v-if="notificationType === 'success'" class="w-8 h-8 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center animate-bounce">
+            <span class="text-green-600 dark:text-green-400 text-lg">✓</span>
+          </div>
+          <div v-else class="w-8 h-8 bg-red-100 dark:bg-red-900 rounded-full flex items-center justify-center animate-bounce">
+            <span class="text-red-600 dark:text-red-400 text-lg">✕</span>
+          </div>
+        </div>
+        <div class="flex-1">
+          <p class="text-sm font-medium text-gray-900 dark:text-white">
+            {{ notificationType === 'success' ? 'Success!' : 'Error!' }}
+          </p>
+          <p class="text-sm text-gray-600 dark:text-gray-400">
+            {{ notificationMessage }}
+          </p>
+        </div>
+        <button 
+          @click="showNotification = false"
+          class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
+        >
+          ✕
+        </button>
       </div>
     </div>
   </section>
@@ -182,10 +216,38 @@ const form = ref({
 })
 
 const isSubmitting = ref(false)
+const showNotification = ref(false)
+const notificationType = ref('success')
+const notificationMessage = ref('')
 
 const config = useRuntimeConfig()
 
+// Form validation
+const isFormValid = computed(() => {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+  return (
+    form.value.name.trim().length >= 2 &&
+    emailRegex.test(form.value.email.trim()) &&
+    form.value.subject.trim().length >= 3 &&
+    form.value.message.trim().length >= 10
+  )
+})
+
+const showNotificationPopup = (type, message) => {
+  notificationType.value = type
+  notificationMessage.value = message
+  showNotification.value = true
+  
+  setTimeout(() => {
+    showNotification.value = false
+  }, 5000)
+}
+
+
+
 const submitForm = async () => {
+  if (!isFormValid.value) return
+  
   isSubmitting.value = true
   
   try {
@@ -204,11 +266,11 @@ const submitForm = async () => {
       message: ''
     }
     
-    alert('Message sent successfully! I\'ll get back to you soon.')
+    showNotificationPopup('success', 'Message sent successfully! I\'ll get back to you soon.')
     
   } catch (error) {
     console.error('Error submitting form:', error)
-    alert('There was an error sending your message. Please try again.')
+    showNotificationPopup('error', 'There was an error sending your message. Please try again.')
   } finally {
     isSubmitting.value = false
   }
