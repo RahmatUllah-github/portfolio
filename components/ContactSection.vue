@@ -106,51 +106,52 @@
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
               <div>
-                <label for="name" class="block text-sm font-medium mb-2">Name *</label>
+                <label for="name" class="block text-sm font-medium mb-2">Name <span class="text-red-500">*</span></label>
                 <input 
                   id="name"
                   v-model="form.name"
                   type="text" 
                   required
-                  class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-800 transition-all duration-300"
+                  class="w-full px-4 py-3 border-0 rounded-lg focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-800 transition-all duration-300"
                   placeholder="Your Name"
                 />
               </div>
               <div>
-                <label for="email" class="block text-sm font-medium mb-2">Email *</label>
+                <label for="email" class="block text-sm font-medium mb-2">Email <span class="text-red-500">*</span></label>
                 <input 
                   id="email"
                   v-model="form.email"
                   type="email" 
                   required
-                  class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-800 transition-all duration-300"
+                  class="w-full px-4 py-3 border-0 rounded-lg focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-800 transition-all duration-300"
                   placeholder="your@email.com"
                 />
               </div>
             </div>
             
             <div class="mb-6">
-              <label for="subject" class="block text-sm font-medium mb-2">Subject *</label>
+              <label for="subject" class="block text-sm font-medium mb-2">Subject <span class="text-red-500">*</span></label>
               <input 
                 id="subject"
                 v-model="form.subject"
                 type="text" 
                 required
-                class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-800 transition-all duration-300"
+                class="w-full px-4 py-3 border-0 rounded-lg focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-800 transition-all duration-300"
                 placeholder="Project Discussion"
               />
             </div>
             
             <div class="mb-6">
-              <label for="message" class="block text-sm font-medium mb-2">Message *</label>
+              <label for="message" class="block text-sm font-medium mb-2">Message <span class="text-red-500">*</span></label>
               <textarea 
                 id="message"
                 v-model="form.message"
                 rows="5" 
                 required
-                class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-800 transition-all duration-300 resize-none"
+                class="w-full px-4 py-3 border-0 rounded-lg focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-800 transition-all duration-300 resize-none"
                 placeholder="Tell me about your project or opportunity..."
               ></textarea>
+              <p class="text-xs text-gray-500 dark:text-gray-400 mt-1">Minimum 10 characters</p>
             </div>
             
             <div class="relative">
