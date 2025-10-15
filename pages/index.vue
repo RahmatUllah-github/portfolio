@@ -1,8 +1,9 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-purple-900 pt-20">
-      <div class="container mx-auto px-6 text-center">
+    <section class="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-100 via-purple-50 to-blue-200 dark:from-gray-900 dark:via-gray-800 dark:to-purple-900 pt-20 relative">
+      <ParticleBackground />
+      <div class="container mx-auto px-6 text-center relative z-10">
         <div class="animate-fade-in">
           <img 
             src="/images/rahmat-profile.png" 
