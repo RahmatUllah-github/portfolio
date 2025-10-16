@@ -43,14 +43,27 @@
             </div>
             
             <div class="flex space-x-4">
-              <a 
-                :href="project.liveUrl" 
-                target="_blank"
-                class="flex items-center space-x-2 text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors duration-300"
-              >
-                <span>🔗</span>
-                <span class="text-sm font-medium">Live Url</span>
-              </a>
+              <div class="relative">
+                <a 
+                  v-if="project.liveUrl"
+                  :href="project.liveUrl" 
+                  target="_blank"
+                  class="flex items-center space-x-2 text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors duration-300"
+                >
+                  <span>🔗</span>
+                  <span class="text-sm font-medium">Live Url</span>
+                </a>
+                <span 
+                  v-else
+                  class="flex items-center space-x-2 text-gray-400 dark:text-gray-600 cursor-not-allowed relative group"
+                >
+                  <span>🔗</span>
+                  <span class="text-sm font-medium">Live Url</span>
+                  <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+                    No URL available
+                  </div>
+                </span>
+              </div>
               <div class="relative">
                 <a 
                   v-if="project.githubUrl"
