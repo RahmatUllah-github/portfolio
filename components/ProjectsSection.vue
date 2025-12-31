@@ -150,7 +150,7 @@ const projects = [
     title: 'FreelaDesk',
     description: 'Team based project and task management SaaS with multi workspace, lists, board view, roles and permissions, and real time updates via WebSockets, built with Nuxt.',
     image: '/images/project-freeladesk.png',
-    category: 'SaaS / Task Management',
+    category: 'Task Management / Saas',
     technologies: ['NestJS', 'TypeScript', 'Prisma', 'PostgreSQL', 'Redis', 'WebSockets', 'Nuxt 3'],
     liveUrl: 'https://freeladesk.com/',
     githubUrl: null
@@ -200,7 +200,7 @@ const projects = [
     title: 'StackConvert',
     description: 'Comprehensive file conversion platform with 20+ specialized tools built on Nuxt.js 3, WebAssembly processing, image/PDF/JSON manipulation utilities, QR code generation, and privacy-focused client-side architecture.',
     image: '/images/stackconvert-screenshot.png',
-    category: 'Utility / Conversion',
+    category: 'Conversion Tools / Saas',
     technologies: ['Nuxt.js 3', 'Tailwind CSS', 'WebAssembly', 'Canvas API'],
     liveUrl: 'https://www.stackconvert.com/',
     githubUrl: null
