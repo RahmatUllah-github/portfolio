@@ -201,7 +201,7 @@ const projects = [
     description: 'Comprehensive file conversion platform with 20+ specialized tools built on Nuxt.js 3, WebAssembly processing, image/PDF/JSON manipulation utilities, QR code generation, and privacy-focused client-side architecture.',
     image: '/images/stackconvert-screenshot.png',
     category: 'Conversion Tools / Saas',
-    technologies: ['Nuxt.js 3', 'Tailwind CSS', 'WebAssembly', 'Canvas API'],
+    technologies: ['Nuxt 3', 'Tailwind CSS', 'WebAssembly', 'Canvas API'],
     liveUrl: 'https://www.stackconvert.com/',
     githubUrl: null
   },
