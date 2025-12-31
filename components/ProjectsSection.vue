@@ -130,7 +130,7 @@ const projects = [
     title: 'Care Quorum',
     description: 'Social health community enabling profiles, posts, comments, and moderation; implemented authentication, controls, and cloud NLP text screening, with S3 storage and streamlined APIs for performance. Monolithic Laravel with Vue 2 components for UI and API integrations.',
     image: '/images/project-carequorum.png',
-    category: 'Healthcare / Community',
+    category: 'Healthcare / Social Community',
     technologies: ['Laravel', 'Vue 2', 'MySQL', 'Google Cloud NLP', 'AWS S3'],
     liveUrl: 'https://carequorum.com/',
     githubUrl: null
@@ -140,7 +140,7 @@ const projects = [
     title: 'Divinity Metals',
     description: 'Inventory and order synchronization with automated SKU updates, queue workers, and reporting; delivered REST integrations, jobs, and dashboards to stabilize supply, pricing, and fulfillment data.',
     image: '/images/project-divinity-metals.png',
-    category: 'Trading / Integrations',
+    category: 'Ecommerce / Inventory Management',
     technologies: ['Laravel', 'MySQL', 'Redis Queues', 'REST APIs', 'Nginx'],
     liveUrl: 'https://divinitymetals.com/',
     githubUrl: null
@@ -150,7 +150,7 @@ const projects = [
     title: 'FreelaDesk',
     description: 'Team based project and task management SaaS with multi workspace, lists, board view, roles and permissions, and real time updates via WebSockets, built with Nuxt.',
     image: '/images/project-freeladesk.png',
-    category: 'SaaS / Productivity',
+    category: 'SaaS / Task Management',
     technologies: ['NestJS', 'TypeScript', 'Prisma', 'PostgreSQL', 'Redis', 'WebSockets', 'Nuxt 3'],
     liveUrl: 'https://freeladesk.com/',
     githubUrl: null
@@ -160,7 +160,7 @@ const projects = [
     title: 'Festa',
     description: 'Event management backend providing categories, events, and media uploads, exposing scalable REST APIs for public and admin UIs, with NestJS, Prisma, and S3 storage integration.',
     image: '/images/project-festa.png',
-    category: 'Events / API',
+    category: 'Events API',
     technologies: ['NestJS', 'TypeScript', 'Prisma', 'PostgreSQL', 'Redis', 'AWS S3'],
     liveUrl: null,
     githubUrl: null
@@ -180,7 +180,7 @@ const projects = [
     title: 'PropQA',
     description: 'AI powered property analytics with listing ingestion and search; built Python NLP microservice for ranking and integrated AWS Rekognition, with Laravel, Nuxt, PostgreSQL, Redis processing.',
     image: '/images/project-propqa.png',
-    category: 'PropTech / AI',
+    category: 'Real Estate / AI',
     technologies: ['Laravel', 'Nuxt 3', 'PostgreSQL', 'Python (NLP)', 'AWS Rekognition', 'Redis', 'Socialite'],
     liveUrl: 'https://propqa.ai/',
     githubUrl: null
@@ -188,9 +188,9 @@ const projects = [
   {
     id: 9,
     title: 'RPM',
-    description: 'Waste collection and operations tool with route scheduling, job tickets, invoicing, and reporting; backed processing for tasks, summaries, and admin controls to streamline dispatch operations.',
+    description: 'Management and operations tool with route scheduling, job tickets, invoicing, and reporting; backed processing for tasks, summaries, and admin controls to streamline dispatch operations.',
     image: '/images/project-rpm.png',
-    category: 'Operations / Internal',
+    category: 'Operations Management / SaaS',
     technologies: ['Laravel', 'MySQL', 'Redis Queues', 'Cron', 'Nginx'],
     liveUrl: 'https://reliablepremium.com/',
     githubUrl: null
