@@ -6,7 +6,7 @@
       <div class="container mx-auto px-6 text-center relative z-10">
         <div class="animate-fade-in">
           <img 
-            src="/images/rahmat-profile.png" 
+            src="/images/rahmat-profile-office.jpg" 
             alt="Rahmat - Senior Full Stack Developer"
             class="w-32 h-32 rounded-full mx-auto mb-8 shadow-2xl animate-bounce-in"
           />
