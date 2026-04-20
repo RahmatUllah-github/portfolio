@@ -147,36 +147,6 @@ const projects = [
   },
   {
     id: 5,
-    title: 'FreelaDesk',
-    description: 'Team based project and task management SaaS with multi workspace, lists, board view, roles and permissions, and real time updates via WebSockets, built with Nuxt.',
-    image: '/images/project-freeladesk.png',
-    category: 'Task Management / Saas',
-    technologies: ['NestJS', 'TypeScript', 'Prisma', 'PostgreSQL', 'Redis', 'WebSockets', 'Nuxt 3'],
-    liveUrl: 'https://freeladesk.com/',
-    githubUrl: null
-  },
-  {
-    id: 6,
-    title: 'Festa',
-    description: 'Event management backend providing categories, events, and media uploads, exposing scalable REST APIs for public and admin UIs, with NestJS, Prisma, and S3 storage integration.',
-    image: '/images/project-festa.png',
-    category: 'Events API',
-    technologies: ['NestJS', 'TypeScript', 'Prisma', 'PostgreSQL', 'Redis', 'AWS S3'],
-    liveUrl: null,
-    githubUrl: null
-  },
-  {
-    id: 7,
-    title: 'Baladi Express',
-    description: 'Developed Laravel REST APIs powering catalog, cart, checkout, and order workflows; implemented authentication, validation, rate limiting, and caching, coordinating with a separate frontend partner team.',
-    image: '/images/project-baladi-express.png',
-    category: 'E-commerce',
-    technologies: ['Laravel', 'MySQL', 'Redis', 'REST APIs', 'Sanctum/JWT'],
-    liveUrl: 'https://baladiexpress.com/',
-    githubUrl: null
-  },
-  {
-    id: 8,
     title: 'PropQA',
     description: 'AI powered property analytics with listing ingestion and search; built Python NLP microservice for ranking and integrated AWS Rekognition, with Laravel, Nuxt, PostgreSQL, Redis processing.',
     image: '/images/project-propqa.png',
@@ -186,7 +156,7 @@ const projects = [
     githubUrl: null
   },
   {
-    id: 9,
+    id: 6,
     title: 'RPM',
     description: 'Management and operations tool with route scheduling, job tickets, invoicing, and reporting; backed processing for tasks, summaries, and admin controls to streamline dispatch operations.',
     image: '/images/project-rpm.png',
@@ -196,7 +166,27 @@ const projects = [
     githubUrl: null
   },
   {
-    id: 10,
+    id: 7,
+    title: 'ILRC',
+    description: 'Legal resource management system for structured content handling and administrative workflows. Contributed to backend modules, admin functionalities, and system enhancements in a team environment.',
+    image: '/images/project-ilrc.webp',
+    category: 'Legal / Resource Management',
+    technologies: ['Laravel', 'React.js', 'MySQL', 'REST APIs'],
+    liveUrl: 'https://www.ilrc.org/',
+    githubUrl: null
+  },
+  {
+    id: 8,
+    title: 'Galaxy Academy',
+    description: 'Educational platform providing academic content and learning resources for students. Worked on feature development, backend functionality, and frontend improvements.',
+    image: '/images/project-galaxy-academy.webp',
+    category: 'Education',
+    technologies: ['Laravel', 'Core PHP', 'jQuery', 'AJAX', 'MySQL'],
+    liveUrl: 'https://www.galaxyacademy.net/en/',
+    githubUrl: null
+  },
+  {
+    id: 9,
     title: 'StackConvert',
     description: 'Comprehensive file conversion platform with 20+ specialized tools built on Nuxt.js 3, WebAssembly processing, image/PDF/JSON manipulation utilities, QR code generation, and privacy-focused client-side architecture.',
     image: '/images/stackconvert-screenshot.png',
@@ -206,7 +196,7 @@ const projects = [
     githubUrl: null
   },
   {
-    id: 11,
+    id: 10,
     title: 'Portfolio Website',
     description: 'Responsive developer portfolio highlighting projects, clean UI, SEO friendly structure, and content sections, built with Nuxt 3 and Tailwind CSS, optimized for performance and updates.',
     image: '/images/project-portfolio.png',

@@ -76,7 +76,7 @@
               </div>
             </div>
             
-            <a href="/Rahmat-senior-fullstack-laravel-dev.pdf" class="btn-primary" target="_blank">
+            <a href="/Rahmat_resume_senior_fullstack_laravel_developer.pdf" class="btn-primary" target="_blank">
               Download PDF Resume
             </a>
           </div>
