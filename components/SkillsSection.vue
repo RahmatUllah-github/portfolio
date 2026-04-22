@@ -39,20 +39,6 @@
           </div>
         </div>
       </div>
-      
-      <div class="mt-16 text-center">
-        <h3 class="text-2xl font-bold mb-8 animate-fade-in">Other Technologies</h3>
-        <div class="flex flex-wrap justify-center gap-4">
-          <span 
-            v-for="(tech, index) in additionalTechs" 
-            :key="tech"
-            class="px-4 py-2 bg-white dark:bg-gray-800 rounded-full shadow-md text-sm font-medium hover:shadow-lg transition-all duration-300 animate-bounce-in"
-            :style="{ animationDelay: `${index * 0.05}s` }"
-          >
-            {{ tech }}
-          </span>
-        </div>
-      </div>
     </div>
   </section>
 </template>
@@ -103,10 +89,5 @@ const skills = [
       { name: 'AWS', level: 95, color: 'bg-red-500' }
     ]
   }
-]
-
-const additionalTechs = [
-  'Nuxt.js', 'Express.js', 'Auth', 'Socket', 'jQuery',
-  'JSON', 'XML', 'AJAX', 'Webpack', 'Vite', 'Nginx', 'Apache'
 ]
 </script>
