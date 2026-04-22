@@ -3,7 +3,7 @@
     <div class="container mx-auto px-6">
       <div class="text-center mb-16">
         <h2 class="text-4xl font-bold mb-4 animate-fade-in">Featured Projects</h2>
-        <p class="text-gray-600 dark:text-gray-400 animate-slide-up">Some of my recent work and contributions</p>
+        <p class="text-gray-600 dark:text-gray-400 animate-slide-up">A selection of my work and contributions</p>
       </div>
       
       <div class="flex flex-wrap justify-center gap-8">
