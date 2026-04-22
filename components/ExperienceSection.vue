@@ -96,12 +96,12 @@
 const experiences = [
   {
     id: 1,
-    position: 'Sr. Full Stack Developer',
+    position: 'Senior Software Engineer',
     company: 'DeltaDots',
     location: 'Lahore, Pakistan',
     duration: 'Nov 2023 - Present',
     description: 'Owning full stack delivery across SaaS, e-commerce, and integrations with a Laravel + Nuxt/NestJS focus, plus AWS and Stripe.',
-    technologies: ['Laravel', 'Laravel Nova', 'Nuxt 3', 'NestJS', 'TypeScript', 'PostgreSQL', 'MySQL', 'Redis', 'AWS (S3, CloudFront)', 'Stripe'],
+    technologies: ['Laravel', 'Laravel Blade', 'Laravel Nova', 'Vue.js', 'Nuxt 3', 'NestJS', 'TypeScript', 'PostgreSQL', 'MySQL', 'Redis', 'AWS (S3, CloudFront)', 'AWS Deployements', 'CI/CD', 'Stripe', 'PayPal', 'Google Pay', 'Linnworks API', 'Microsoft Business Central API'],
     achievements: [
       'Led core features on KP-Pharma, Regen Bespoke, Festa and RPM',
       'Integrated Stripe Payment Intents with Apple Pay and Google Pay',
@@ -111,12 +111,12 @@ const experiences = [
   },
   {
     id: 2,
-    position: 'Laravel & Vue.js Developer',
+    position: 'Associate Software Engineer',
     company: 'OnyxTec Solutions',
     location: 'Lahore, Pakistan',
     duration: 'Aug 2022 - Oct 2023',
     description: 'Delivered product features for web apps using a monolithic Laravel + Vue stack with REST APIs and MySQL.',
-    technologies: ['Laravel', 'Vue 2', 'Nuxt', 'MySQL', 'Redis', 'Git'],
+    technologies: ['Laravel', 'Laravel Blade', 'Vue 2', 'MySQL', 'Redis', 'Git/Github/Bitbucket'],
     achievements: [
       'Built dashboards, CRUD modules, validations, and role-based access',
       'Optimized slow queries with proper indexing and eager loading',
@@ -126,27 +126,12 @@ const experiences = [
   },
   {
     id: 3,
-    position: 'Laravel & Vue.js Developer',
-    company: 'SOFTTNS Trading & Services',
-    location: 'Peshawar, Pakistan',
-    duration: 'Jul 2021 - Aug 2022',
-    description: 'Implemented and maintained monolithic Laravel + Vue applications with payments and third-party API integrations.',
-    technologies: ['Laravel', 'Vue 2', 'MySQL', 'Stripe', 'PayPal', 'Bootstrap/Tailwind'],
-    achievements: [
-      'Shipped authentication, roles/permissions, and media management',
-      'Integrated Stripe/PayPal and external REST services',
-      'Improved UX with reusable Vue components and form handling',
-      'Handled deployments on shared/VPS environments with zero-downtime steps'
-    ]
-  },
-  {
-    id: 4,
-    position: 'Laravel Developer',
-    company: 'Eden Spell Technologies',
+    position: 'Junior Software Engineer',
+    company: 'Edenspell Technologies',
     location: 'Rawalpindi, Pakistan',
-    duration: 'Jan 2021 - Jun 2021',
+    duration: 'Jan 2021 - Jul 2022',
     description: 'Developed Laravel backends, designed schemas, and exposed REST APIs for business modules with automated testing.',
-    technologies: ['Laravel', 'MySQL', 'Redis', 'Git/GitHub', 'Docker (basics)'],
+    technologies: ['Laravel', 'Laravel Blade', 'MySQL', 'Redis', 'Git/GitHub', 'Docker (basics)'],
     achievements: [
       'Modeled relational schemas and wrote migration/seed strategies',
       'Built REST controllers, policies, and request validation layers',
