@@ -278,7 +278,7 @@ const submitForm = async () => {
       message: ''
     }
     
-    showNotificationPopup('success', 'Message sent successfully! I\'ll get back to you soon.')
+    showNotificationPopup('success', 'Message sent successfully! You should hear back from me shortly.')
     
   } catch (error) {
     console.error('Error submitting form:', error)
