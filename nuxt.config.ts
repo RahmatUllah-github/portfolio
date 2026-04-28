@@ -25,18 +25,18 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-      title: 'Rahmat - Senior Full Stack Developer | Vue.js, Node.js, PHP Laravel Expert',
+      title: 'Rahmat - Senior Full Stack Developer | PHP Laravel & Vue.js',
       meta: [
-        { name: 'description', content: 'Senior Full Stack Developer with expertise in Vue.js, Node.js, PHP, JavaScript, TypeScript, MySQL, PostgreSQL, MongoDB. Building scalable web applications, APIs, and e-commerce platforms for healthcare, legal tech, and pharmaceutical industries.' },
+        { name: 'description', content: 'Senior Full Stack Developer with expertise in PHP Laravel, Vue.js, Nest.js, JavaScript, TypeScript, MySQL, PostgreSQL. Building scalable web applications, APIs, and e-commerce platforms for healthcare, legal tech, and pharmaceutical industries.' },
         { name: 'keywords', content: 'Full Stack Developer, Vue.js, Node.js, PHP Laravel, JavaScript, TypeScript, MySQL, PostgreSQL, MongoDB, REST APIs, Web Development, E-commerce, Healthcare Tech, Legal Tech, Pharmaceutical' },
         { name: 'author', content: 'Rahmat' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:title', content: 'Rahmat - Senior Full Stack Developer | Vue.js, Node.js, PHP Laravel Expert' },
-        { property: 'og:description', content: 'Senior Full Stack Developer with 5+ years experience. Expert in Vue.js, Node.js, PHP Laravel, JavaScript, TypeScript, MySQL, PostgreSQL, MongoDB. Delivered 15+ successful projects in healthcare, e-commerce, and legal tech.' },
+        { property: 'og:title', content: 'Rahmat - Senior Full Stack Developer | PHP Laravel & Vue.js' },
+        { property: 'og:description', content: 'Senior Full Stack Developer with 5+ years experience. Expert in PHP Laravel, Vue.js, Nest.js, JavaScript, TypeScript, MySQL, PostgreSQL. Delivered 15+ successful projects in healthcare, e-commerce, and legal tech.' },
         { property: 'og:image', content: '/images/about-rahmat.png' },
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: 'Rahmat - Senior Full Stack Developer | Vue.js, Node.js, PHP Laravel Expert' },
-        { name: 'twitter:description', content: 'Senior Full Stack Developer with 5+ years experience. Expert in Vue.js, Node.js, PHP Laravel, JavaScript, TypeScript, MySQL, PostgreSQL, MongoDB. Delivered 15+ successful projects.' },
+        { name: 'twitter:title', content: 'Rahmat - Senior Full Stack Developer | PHP Laravel & Vue.js' },
+        { name: 'twitter:description', content: 'Senior Full Stack Developer with 5+ years experience. Expert in PHP Laravel, Vue.js, Nest.js, JavaScript, TypeScript, MySQL, PostgreSQL. Delivered 15+ successful projects.' },
         { name: 'twitter:image', content: '/images/about-rahmat.png' }
       ],
       link: [
