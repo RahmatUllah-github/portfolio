@@ -11,7 +11,10 @@ export default defineNuxtConfig({
   // Runtime Config
   runtimeConfig: {
     public: {
-      formspreeFormId: process.env.FORMSPREE_FORM_ID
+      formspreeFormId: process.env.FORMSPREE_FORM_ID,
+      contactEmail: process.env.CONTACT_EMAIL,
+      contactPhone: process.env.CONTACT_PHONE,
+      contactPhoneDisplay: process.env.CONTACT_PHONE_DISPLAY
     }
   },
 

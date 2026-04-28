@@ -15,8 +15,8 @@
             >
               💼
             </a>
-            <a 
-              href="mailto:rahmatul368@gmail.com"
+            <a
+              :href="emailHref"
               class="p-2 bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors duration-300"
             >
               ✉️
@@ -28,8 +28,8 @@
             >
               <img src="/images/github.svg" alt="GitHub" class="w-5 h-5 invert" />
             </a>
-            <a 
-              href="https://wa.me/923469070799"
+            <a
+              :href="whatsappHref"
               target="_blank"
               class="p-2 bg-green-600 rounded-lg hover:bg-green-700 transition-colors duration-300"
             >
@@ -52,10 +52,10 @@
         <div class="animate-slide-in-right">
           <h4 class="text-lg font-semibold mb-4">Get In Touch</h4>
           <p class="text-gray-600 dark:text-gray-400 mb-2">
-            ✉️ rahmatul368@gmail.com
+            ✉️ {{ email }}
           </p>
           <p class="text-gray-600 dark:text-gray-400 mb-2">
-            💬 +92 346 9070799
+            💬 {{ phoneDisplay }}
           </p>
           <p class="text-gray-600 dark:text-gray-400 mb-4">
             📍 Available for remote work worldwide & onsite in Lahore, Pakistan
@@ -74,3 +74,7 @@
     </div>
   </footer>
 </template>
+
+<script setup>
+const { email, emailHref, phoneDisplay, whatsappHref } = useContact()
+</script>

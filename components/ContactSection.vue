@@ -19,11 +19,23 @@
               <div class="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center text-xl">
                 ✉️
               </div>
-              <div>
+              <div class="flex-1 min-w-0">
                 <h4 class="font-semibold">Email</h4>
-                <a href="mailto:rahmatul368@gmail.com" class="text-blue-600 dark:text-blue-400 hover:underline">
-                  rahmatul368@gmail.com
-                </a>
+                <div class="flex items-center space-x-2">
+                  <a :href="emailHref" class="text-blue-600 dark:text-blue-400 hover:underline truncate">
+                    {{ email }}
+                  </a>
+                  <button
+                    type="button"
+                    @click="copyToClipboard(email, 'email')"
+                    class="flex-shrink-0 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+                    :aria-label="copiedItem === 'email' ? 'Copied' : 'Copy email'"
+                    :title="copiedItem === 'email' ? 'Copied!' : 'Copy email'"
+                  >
+                    <Copy v-if="copiedItem !== 'email'" class="w-4 h-4" />
+                    <Check v-else class="w-4 h-4 text-green-500" :stroke-width="2.5" />
+                  </button>
+                </div>
               </div>
             </div>
             
@@ -53,11 +65,23 @@
               <div class="w-12 h-12 bg-green-100 dark:bg-green-900 rounded-lg flex items-center justify-center text-xl">
                 💬
               </div>
-              <div>
+              <div class="flex-1 min-w-0">
                 <h4 class="font-semibold">WhatsApp</h4>
-                <a href="https://wa.me/923469070799" target="_blank" class="text-green-600 dark:text-green-400 hover:underline">
-                  +92 346 9070799
-                </a>
+                <div class="flex items-center space-x-2">
+                  <a :href="whatsappHref" target="_blank" class="text-green-600 dark:text-green-400 hover:underline truncate">
+                    {{ phoneDisplay }}
+                  </a>
+                  <button
+                    type="button"
+                    @click="copyToClipboard(phone, 'whatsapp')"
+                    class="flex-shrink-0 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+                    :aria-label="copiedItem === 'whatsapp' ? 'Copied' : 'Copy WhatsApp number'"
+                    :title="copiedItem === 'whatsapp' ? 'Copied!' : 'Copy WhatsApp number'"
+                  >
+                    <Copy v-if="copiedItem !== 'whatsapp'" class="w-4 h-4" />
+                    <Check v-else class="w-4 h-4 text-green-500" :stroke-width="2.5" />
+                  </button>
+                </div>
               </div>
             </div>
             
@@ -89,8 +113,8 @@
               >
                 <img src="/images/github.svg" alt="GitHub" class="w-5 h-5 invert" />
               </a>
-              <a 
-                href="https://wa.me/923469070799" 
+              <a
+                :href="whatsappHref"
                 target="_blank"
                 class="w-10 h-10 bg-green-600 text-white rounded-lg flex items-center justify-center hover:bg-green-700 transition-colors duration-300"
               >
@@ -219,6 +243,10 @@
 </template>
 
 <script setup>
+import { Copy, Check } from 'lucide-vue-next'
+
+const { email, emailHref, phone, phoneDisplay, whatsappHref } = useContact()
+
 const form = ref({
   name: '',
   email: '',
@@ -231,6 +259,19 @@ const showNotification = ref(false)
 const notificationType = ref('success')
 const notificationMessage = ref('')
 const showTooltip = ref(false)
+const copiedItem = ref(null)
+
+const copyToClipboard = async (text, key) => {
+  try {
+    await navigator.clipboard.writeText(text)
+    copiedItem.value = key
+    setTimeout(() => {
+      if (copiedItem.value === key) copiedItem.value = null
+    }, 2000)
+  } catch (err) {
+    console.error('Failed to copy:', err)
+  }
+}
 
 const config = useRuntimeConfig()
 
