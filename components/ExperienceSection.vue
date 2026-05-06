@@ -99,7 +99,7 @@ const experiences = [
     position: 'Senior Software Engineer',
     company: 'DeltaDots',
     location: 'Lahore, Pakistan',
-    duration: 'Nov 2023 - Present',
+    duration: 'Nov 2023 - Apr 2026',
     description: 'Owning full stack delivery across SaaS, e-commerce, and integrations with a Laravel + Nuxt and NestJS focus, plus AWS and Stripe.',
     technologies: ['Laravel', 'Laravel Blade', 'Laravel Nova', 'Vue.js', 'Nuxt 3', 'NestJS', 'TypeScript', 'PostgreSQL', 'MySQL', 'Redis', 'AWS (S3, CloudFront)', 'AWS Deployements', 'CI/CD', 'Stripe', 'PayPal', 'Google Pay', 'Linnworks API', 'Microsoft Business Central API'],
     achievements: [
